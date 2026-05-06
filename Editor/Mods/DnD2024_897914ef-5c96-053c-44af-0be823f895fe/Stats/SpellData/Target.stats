@@ -5901,6 +5901,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ChannelDivinity:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AoEConditions" type="StringTableFieldDefinition" value="Character();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
