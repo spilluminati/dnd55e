@@ -6570,7 +6570,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7cf9e06ag9d1dga32egceb0gbe819d69f976" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdea0235fg740bg417fgb072ga3c6f349d4c3" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(MeleeWeaponDamage,20,false);Reroll(RangedWeaponDamage,20,false);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(AttackingWithMeleeWeapon(context.Source)):Reroll(Damage,20,false);IF(AttackingWithRangedWeapon(context.Source)):Reroll(Damage,20,false);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
