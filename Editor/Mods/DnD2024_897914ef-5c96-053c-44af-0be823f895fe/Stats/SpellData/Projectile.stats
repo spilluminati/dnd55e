@@ -51,6 +51,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5c5a67e-febc-4cb3-a2a0-9497ac8e1972" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fly_Equal_No_HeavyArmor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1f207ea5-89e8-4ce1-9b79-a85ec0107619" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasHeavyArmor(context.Source);" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnEquip;OnUnequip" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6f7e778d-7203-4e95-997b-aa8782701457" />
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryCleave_10" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="21252e04-71ca-447d-91b3-7dc76b13979f" />

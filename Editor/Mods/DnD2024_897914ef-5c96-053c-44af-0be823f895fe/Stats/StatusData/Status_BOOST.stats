@@ -4370,6 +4370,153 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFCD5C5C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1242a07c-432c-4935-a86a-151a15927977" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONSTER HUNTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="909877dd-6f43-46f7-9f55-b09af42a8e98" />
+        <field name="Name" type="NameTableFieldDefinition" value="ACID_BLOOD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h18dea430g0a51g9ce2g9dc4g23ab4802a3ec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b8f7438g5b18gdde5gc4dfga7996a555481" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ACID_BLOOD" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AcidBlood;" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="4ca0dc53-1568-4bfd-8680-67086fea6451" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdb5ac3d-66e3-431f-8efe-42a5bf1af1fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ACUMEN" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65822f22g5c0agbed4ga2dfg8ecf26db28f0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1865c71ag5eb9gf397gb7e8g3c4fd9f68123" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnhanceAbility_OwlsWisdom" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ACUMEN" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill,Insight);Advantage(Skill,Intimidation);Advantage(Skill,Persuasion);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="2028d11e-eb2b-441d-8182-ab4d7e3c5017" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd8ed4c7-6bae-43e7-993f-d419ce09b2d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="FLIGHT_EQUAL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h803ef2b4g9d5fg6bf7gcdfbge5aa148caa9d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0deee58g3421g39e9ge698g864491958c4a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GiantEagle_Fly" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FLIGHT_EQUAL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Fly_Equal_No_HeavyArmor);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="70e3142f-6fde-4718-815f-a419e6bfaa23" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15bb6423-1839-4f55-b11f-f608b163d2a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="INFUSED_ACID" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf927d573g7918gf498g9bedg56f31a1a2e84" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14e14dcbg4d74gcb77g5954gf0d23d010934" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Acid" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INFUSED_ACID" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Acid);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="8e166243-6e8e-4e1f-88ac-a90b48f4ada1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="362600d8-e931-4337-9e93-66e14bf2406c" />
+        <field name="Name" type="NameTableFieldDefinition" value="INFUSED_COLD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15bb6423-1839-4f55-b11f-f608b163d2a9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7954c79agf580gbf38gb998ga2c34ab9cde5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Cold" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Cold);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="1700ab9f-0530-4309-8ffe-84f8efa7b3d0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6d08ec29-4bbd-4247-8d68-c62a528ca4e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="INFUSED_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15bb6423-1839-4f55-b11f-f608b163d2a9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd3296f0g5c52gf913g920agbba88bdced8b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Fire" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Fire);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="0d1ef9e2-a5f8-4f77-8631-dea452d212cc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9eccd71b-6ab4-4245-8038-a8a078df68f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="INFUSED_LIGHTNING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15bb6423-1839-4f55-b11f-f608b163d2a9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76c971ebgee3fgbdf8gc480g5b0e87d2e46b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Lightning" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Lightning);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e3b75dc7-7d4f-49da-9d71-004eaf283637" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="044e1d86-e976-4f95-8e31-fe52514c847e" />
+        <field name="Name" type="NameTableFieldDefinition" value="INFUSED_POISON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15bb6423-1839-4f55-b11f-f608b163d2a9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea98444ag27e9g0fbcg378bg8dec879945da" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Poison" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Poison);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="86b94e03-b0d5-46aa-9045-88cdc5aeff47" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="80668025-f694-4767-8127-796a1b5ebe4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="INFUSED_THUNDER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15bb6423-1839-4f55-b11f-f608b163d2a9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha8f80da7g749dg53f7g250cgcb2b053e8257" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Thunder" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Thunder);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="4859943a-2f25-433b-8cb5-7eebd36a47b3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f5444d7-adb7-4dc7-a036-fcfb6c4abeb1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MIGHT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f4646b9gb34dg645fg078cgf9f1a47d3ede" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8bb68f75g3204gd036ge31dgd30865e8fc34" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Slam" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MIGHT" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(AttackRollAbility(Ability.Strength)):Advantage(AttackRoll);IF(AttackRollAbility(Ability.Strength)):DamageBonus(1d6);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="30fd26c7-1a1e-4328-9a9a-38c0f55be597" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3123eb1c-2b21-41f5-b480-034b49806f44" />
+        <field name="Name" type="NameTableFieldDefinition" value="SYNCHRONIZED_RESPONSE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1a8a8630g2403gd97bg04dfg98e96ac14682" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h153b4fe6g72f3g247fg04f1g5e857e482941" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Wolf_InfectiousBite" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SYNCHRONIZED_RESPONSE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsReactionAttack(context.Source)):DamageBonus(1d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03c99145-2ed3-4354-bb8c-da5229576ecd" />
+        <field name="Name" type="NameTableFieldDefinition" value="GNAWING_HUNGER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6c54c1b3g4767g3527g4d8dg0d550177f041" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdfb969fag7500g43bege6e0g5797aac03cfc" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Wolf_InfectiousBite" />
+        <field name="StackId" type="StringTableFieldDefinition" value="GNAWING_HUNGER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(6);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

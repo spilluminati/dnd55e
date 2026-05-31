@@ -840,7 +840,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0869d35bg1af1g491egad72g2bce5ad0bb7c" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="MonsterHunter" />
-        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
@@ -861,6 +861,22 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01ea6745gf575gdd08g5ff4gb54b6b04ee5f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he0ef5905gc6d4gce1ag48ceg2478a264ead0" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="0f496902-a151-45db-80f7-a8b361aaa66c" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="MonsterHunter" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_50" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bebbfa54-1ad1-4459-b11b-8755e8633c5a" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="e137179a-0c6f-4608-837a-322c13403943" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DevourerGuild" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h23fe18adga21bgcce1g94begc4e07deb93fe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae222c4fga6fbgac62g739fg68a9d81a56c3" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="784b2099-da2e-463b-9542-2457f3c836a5" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="MonsterHunter" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />

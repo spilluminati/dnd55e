@@ -252,6 +252,19 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="he18e2299gab76g9494gca06g85d28e4049b1" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb9127c70g1995gf222g6ab6g02340332c0ad" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Viking"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="241461f3-7cb5-4fc3-abdf-d56b869e3757"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="b400e0f2-7824-4c8c-aebb-6124500e6988"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h815eabb9gc85dg52dcg5f7ag22caae5f76ac" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hf1367018g2ff0g0c06g94e6g7b5a5f21d863" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -721,7 +734,7 @@
                     <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="MonsterHunter"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
                     <attribute id="SoundClassType" type="FixedString" value="MonsterHunter"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
@@ -742,16 +755,16 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="he18e2299gab76g9494gca06g85d28e4049b1" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hb9127c70g1995gf222g6ab6g02340332c0ad" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hae222c4fga6fbgac62g739fg68a9d81a56c3" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h23fe18adga21bgcce1g94begc4e07deb93fe" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="Viking"/>
-                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="Name" type="FixedString" value="DevourerGuild"/>
+                    <attribute id="ParentGuid" type="guid" value="e137179a-0c6f-4608-837a-322c13403943"/>
                     <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="241461f3-7cb5-4fc3-abdf-d56b869e3757"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
+                    <attribute id="SoundClassType" type="FixedString" value="MonsterHunter"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
-                    <attribute id="UUID" type="guid" value="b400e0f2-7824-4c8c-aebb-6124500e6988"/>
+                    <attribute id="UUID" type="guid" value="bebbfa54-1ad1-4459-b11b-8755e8633c5a"/>
                 </node>
             </children>
         </node>

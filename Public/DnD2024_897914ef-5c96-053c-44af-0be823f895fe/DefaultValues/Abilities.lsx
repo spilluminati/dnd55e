@@ -26,7 +26,7 @@
                     <attribute id="UUID" type="guid" value="d6983642-2a0a-4626-83b5-83df19d84a5b"/>
                 </node>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Dexterity;Intelligence"/>
+                    <attribute id="Add" type="LSString" value="Strength;Intelligence"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="SelectorId" type="LSString" value="AbilityBonus"/>
                     <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>

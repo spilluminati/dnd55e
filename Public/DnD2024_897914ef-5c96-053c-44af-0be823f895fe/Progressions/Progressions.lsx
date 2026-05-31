@@ -7220,6 +7220,9 @@
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="d84e3f76-0e56-4344-9454-ba167a286bdb"/>
                                 </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="bebbfa54-1ad1-4459-b11b-8755e8633c5a"/>
+                                </node>
                             </children>
                         </node>
                     </children>
@@ -7398,6 +7401,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="DevourerGuild"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DevourerGuild_3_TransmutingMetabolism"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
                     <attribute id="UUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
@@ -7405,6 +7409,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="DevourerGuild"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DevourerGuild_7_SynchronizedResponse"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
                     <attribute id="UUID" type="guid" value="024ce4d9-5c5f-4af1-b5d9-9135784bca64"/>
@@ -7412,6 +7417,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="DevourerGuild"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DevourerGuild_10_GnawingHunger"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
                     <attribute id="UUID" type="guid" value="c31d90e9-f0c4-4e76-b0c2-945b08861628"/>

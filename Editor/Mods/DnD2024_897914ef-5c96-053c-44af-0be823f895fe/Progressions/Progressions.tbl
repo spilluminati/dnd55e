@@ -9309,7 +9309,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_864" />
         <field name="UUID" type="IdTableFieldDefinition" value="046c58a5-1251-46b3-b417-9c1ff559680d" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="d84e3f76-0e56-4344-9454-ba167a286bdb" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="d84e3f76-0e56-4344-9454-ba167a286bdb;bebbfa54-1ad1-4459-b11b-8755e8633c5a" />
         <field name="FSName" type="StringTableFieldDefinition" value="MonsterHunter" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
@@ -9555,6 +9555,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevourerGuild" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DevourerGuild_3_TransmutingMetabolism" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9565,6 +9566,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevourerGuild" />
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DevourerGuild_7_SynchronizedResponse" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9575,6 +9577,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevourerGuild" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DevourerGuild_10_GnawingHunger" />
       </fields>
     </stat_object>
     <stat_object color="#FFCD5C5C" is_substat="false">

@@ -6380,6 +6380,52 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,2,,,,not SavingThrow(Ability.Wisdom,SourceSpellDC()))" />
       </fields>
     </stat_object>
+    <stat_object color="#FFCD5C5C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04ac33c2-4bb7-4f83-a434-8665cb039d61" />
+        <field name="Name" type="NameTableFieldDefinition" value="DevourerGuild_3_TransmutingMetabolism" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3fd3cd39g82cdg6ea4gad4age341508f8cce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf664a7b1g2fffg549cgf62dgbca83b181e57" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Wolf_InfectiousBite" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Mutations_AcidBlood);UnlockSpell(Shout_Mutations_Acumen);UnlockSpell(Shout_Mutations_Flight);UnlockSpell(Shout_Mutations_Infused);UnlockSpell(Shout_Mutations_Invisibility);UnlockSpell(Shout_Mutations_Might);UnlockSpell(Shout_Mutations_Regeneration);UnlockSpell(Shout_Mutations_Resistance);ActionResource(TransmutingMetabolism,1,0);IF(AbilityGreaterThan('Intelligence',13,context.Source)):ActionResource(TransmutingMetabolism,2,0);IF(AbilityGreaterThan('Intelligence',15,context.Source)):ActionResource(TransmutingMetabolism,1,0);IF(AbilityGreaterThan('Intelligence',17,context.Source)):ActionResource(TransmutingMetabolism,1,0);IF(AbilityGreaterThan('Intelligence',19,context.Source)):ActionResource(TransmutingMetabolism,1,0);IF(AbilityGreaterThan('Intelligence',21,context.Source)):ActionResource(TransmutingMetabolism,1,0);IF(AbilityGreaterThan('Intelligence',23,context.Source)):ActionResource(TransmutingMetabolism,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3257b8d4-a4ce-47f8-9fb2-3546c3bbee5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DevourerGuild_7_SynchronizedResponse" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7edd0e4gc93dg9a16ga571g3e0626bf6d67" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h020e73f6gf74eg8fa5ga3a2gc0e28b778b62" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Wolf_InfectiousBite" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27fe7afa-3280-4e6e-ac20-114660641d3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DevourerGuild_10_GnawingHunger" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h529b8a58gb300g1753gdff4gbd3ce84b211c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90ab5cd5g9998gb661g7d18ga57aad811d98" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Wolf_InfectiousBite" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16110" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpell();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,GNAWING_HUNGER,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0baf802-ad7d-46f1-af76-018d8cc316f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="AcidBlood" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d6,Acid,Magical)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />

@@ -15,3 +15,8 @@
 - Level 3: Close Quarters
 - Level 7: True Grit
 - Level 10: Terrorize the Terrors
+# Devourer Guild
+- Level 3: Alchemical Gastronomy
+- Level 3: Transmuting Metabolism
+- Level 7: Synchronized Response
+- Level 10: Gnawing Hunger

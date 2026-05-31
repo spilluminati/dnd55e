@@ -36,6 +36,13 @@ using "Projectile_Fly"
 data "UseCosts" "Movement:Distance;"
 data "SpellFlags" "IsJump;HasHighGroundRangeExtension;IgnoreVisionBlock;RangeIgnoreVerticalThreshold;Stealth;Invisible;CannotTargetCharacter;CannotTargetItems;NoAOEDamageOnLand;Temporary"
 
+new entry "Projectile_Fly_Equal_No_HeavyArmor"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fly_Equal"
+data "RequirementConditions" "not HasHeavyArmor(context.Source);"
+data "RequirementEvents" "OnEquip;OnUnequip"
+
 new entry "Projectile_WeaponMasteryCleave_10"
 type "SpellData"
 data "SpellType" "Projectile"

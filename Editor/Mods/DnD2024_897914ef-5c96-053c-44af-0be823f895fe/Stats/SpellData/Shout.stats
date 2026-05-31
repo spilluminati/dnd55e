@@ -3310,6 +3310,20 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f0d1be4g0c48gc8dag5d46gb63613816d4b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcae93600g722fg2de2g2f0fg60184d7ba2f0" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ACID_BLOOD,100,10);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ACID_BLOOD,100,10);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Barbarian_ElementalCleaver_Acid" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Barbarian_ElementalCleaver_Acid" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Barbarian_ElementalCleaver_Acid" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;TransmutingMetabolism:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;eb4f3d5f-6815-4ad5-a5af-870942af0863,,;ba5068a2-ed31-4b9a-87cc-be28edb9ad25,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="6cc756f6-35ef-4530-b5cb-0da9bf3e5f24" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="cd2edee4-d287-4868-bdbe-d42cef17a67f" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3319,6 +3333,17 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfb4b4347g41f8gc00fg03eagf4da78649103" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55f2832cg60b4gcd10g11f2g30f9e75aa0b9" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnhanceAbility_OwlsWisdom" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ACUMEN,100,600);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ACUMEN,100,600);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Githyanki_AstralKnowledge" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;TransmutingMetabolism:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;6a95a81d-62e7-4b68-9b45-7e42e538dbde,,;815364ff-bbaa-4efc-b10e-f31043fafd6e,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5eceeb19-4020-4171-8659-48cdad5ac3a9" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3328,6 +3353,22 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0332a04eg8429g6f00gada3gf49674ee7d97" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd356b0cdg39beg042eg81feg07e80f4dede3" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GiantEagle_Fly" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLIGHT_EQUAL,100,100);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FLIGHT_EQUAL,100,100);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Fly_L4to5_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Fly_L4to5" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Fly_L4to5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Fly_L4to5" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_GrantFly" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;TransmutingMetabolism:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;236087a5-5597-4ee7-ab06-75b01147f596,,;ee0b6a78-c6b6-4852-aecb-d7c474a37d68,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f1ba15e1-93c4-4c94-a6d4-2b1b3934ce44" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bcd66fb0-b0bc-41d0-abba-ad443d63dd72" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="8cd6c669-ded1-476a-aa5e-d7dd055381d7" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3338,6 +3379,19 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c602649g9292g91d9g709bg07327682e721" version="1" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_Mutations_Infused_1;Shout_Mutations_Infused_2;Shout_Mutations_Infused_3;Shout_Mutations_Infused_4;Shout_Mutations_Infused_5;Shout_Mutations_Infused_6;" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_ElementalWeapon" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Barbarian_ElementalCleaver_Acid" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Barbarian_ElementalCleaver_Acid" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Barbarian_ElementalCleaver_Acid" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;TransmutingMetabolism:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="6cc756f6-35ef-4530-b5cb-0da9bf3e5f24" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="cd2edee4-d287-4868-bdbe-d42cef17a67f" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3349,6 +3403,9 @@
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_Mutations_Infused" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Acid" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,INFUSED_ACID,100,-1);ApplyEquipmentStatus(MeleeOffHand,INFUSED_ACID,100,-1);ApplyEquipmentStatus(RangedMainHand,INFUSED_ACID,100,-1);ApplyEquipmentStatus(RangedOffHand,INFUSED_ACID,100,-1);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INFUSED_ACID,100,100);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3358,6 +3415,13 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19df2915gdc32g0dd3g5c76gef59b78ad51f" version="1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Cold" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,INFUSED_COLD,100,-1);ApplyEquipmentStatus(MeleeOffHand,INFUSED_COLD,100,-1);ApplyEquipmentStatus(RangedMainHand,INFUSED_COLD,100,-1);ApplyEquipmentStatus(RangedOffHand,INFUSED_COLD,100,-1);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INFUSED_COLD,100,100);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Barbarian_ElementalCleaver_Cold" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Barbarian_ElementalCleaver_Cold" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Barbarian_ElementalCleaver_Cold" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="6f85d9e8-925e-4c02-85d9-e163f7044928" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ab0dc2d9-90de-428f-aa87-7098969337e8" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3367,6 +3431,13 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb78a3ecdg7a33g2a60g7ee1g414456631317" version="1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Fire" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,INFUSED_FIRE,100,-1);ApplyEquipmentStatus(MeleeOffHand,INFUSED_FIRE,100,-1);ApplyEquipmentStatus(RangedMainHand,INFUSED_FIRE,100,-1);ApplyEquipmentStatus(RangedOffHand,INFUSED_FIRE,100,-1);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INFUSED_FIRE,100,100);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Barbarian_ElementalCleaver_Fire" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Barbarian_ElementalCleaver_Fire" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Barbarian_ElementalCleaver_Fire" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d4c6e0c6-b8eb-4d69-ba6c-c3b4e9cce7bc" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a2b8606f-fbd7-4ec7-881e-614f27f26fb0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3376,6 +3447,13 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7953e4c5g1403g5956g4511gc857d6b9ce40" version="1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Lightning" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,INFUSED_LIGHTNING,100,-1);ApplyEquipmentStatus(MeleeOffHand,INFUSED_LIGHTNING,100,-1);ApplyEquipmentStatus(RangedMainHand,INFUSED_LIGHTNING,100,-1);ApplyEquipmentStatus(RangedOffHand,INFUSED_LIGHTNING,100,-1);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INFUSED_LIGHTNING,100,100);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Barbarian_ElementalCleaver_Lightning" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Barbarian_ElementalCleaver_Lightning" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Barbarian_ElementalCleaver_Lightning" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="0b21f040-2ab2-45c1-978d-285f5247f967" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="9e41d5ad-caf0-4d23-844d-d4c13adaeafb" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3384,7 +3462,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="Mutations_Infused_5" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9937e5c1g20b9gf010g9a9ag5025bbaebac2" version="1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Poison_Melee" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Poison" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,INFUSED_POISON,100,-1);ApplyEquipmentStatus(MeleeOffHand,INFUSED_POISON,100,-1);ApplyEquipmentStatus(RangedMainHand,INFUSED_POISON,100,-1);ApplyEquipmentStatus(RangedOffHand,INFUSED_POISON,100,-1);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INFUSED_ACID,POISON,100);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3394,6 +3474,13 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6537ee84g1c9egec99gef96g0dc4308fed8c" version="1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Thunder" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,INFUSED_THUNDER,100,-1);ApplyEquipmentStatus(MeleeOffHand,INFUSED_THUNDER,100,-1);ApplyEquipmentStatus(RangedMainHand,INFUSED_THUNDER,100,-1);ApplyEquipmentStatus(RangedOffHand,INFUSED_THUNDER,100,-1);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INFUSED_THUNDER,100,100);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Barbarian_ElementalCleaver_Thunder" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Barbarian_ElementalCleaver_Thunder" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Barbarian_ElementalCleaver_Thunder" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="20bc86ba-edd8-4fd0-8ff1-7be2c57d1fdf" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ce3ad918-3c58-49e7-88c9-ed09f9efd394" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3403,6 +3490,19 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5eb0c1fbg30ddg233fgb6c8gefbdb310cc80" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9dbb965ag2bcegf72bg5bb2gc4f359dca388" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Invisibility" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(INVISIBILITY,100,100);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INVISIBILITY,100,100);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_Invisibility_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_Invisibility_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;TransmutingMetabolism:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="b1c774c1-9ad2-426b-9240-ba83ad2efc70" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="fadb15d3-6175-4334-be28-3160a640e799" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3412,6 +3512,18 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd01b6b25g66b1g66d5gcfaag271f0d12728a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95627a66gf92eg2d99g31e2ge9a622a94222" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Slam" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MIGHT,100,10);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MIGHT,100,10);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_Enlarge" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;TransmutingMetabolism:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,;,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e11630b9-598a-4ce0-b2bf-c50e074e7b9d" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="419490b6-d15f-474e-87bb-635c012f0682" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3421,6 +3533,18 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf72e3943ga838g8a6eg437fgf3e3b4cf0bde" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a5acea8g48afg5d80g2670g4f92b9e54c1e" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d8+ClassLevel(MonsterHunter));IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2d8+ClassLevel(MonsterHunter));" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_UnrelentingFerocity" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;TransmutingMetabolism:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;eb4f3d5f-6815-4ad5-a5af-870942af0863,,;ba5068a2-ed31-4b9a-87cc-be28edb9ad25,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="50723b45-0942-4cf5-b39b-9b486e971c17" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="423e2b62-1926-4918-a087-1400838524f6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3430,6 +3554,18 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14ef410eg91c7g8763gfe5bge988b17c4434" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha9065fa0gda11g9fbag0a9fgd56f197c42ac" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Stoneskin" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(STONESKIN,100, 10);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STONESKIN,100, 10)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_Enlarge" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;TransmutingMetabolism:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,;,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e11630b9-598a-4ce0-b2bf-c50e074e7b9d" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="419490b6-d15f-474e-87bb-635c012f0682" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

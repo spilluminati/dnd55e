@@ -473,6 +473,19 @@
                     <attribute id="UUID" type="guid" value="a290abe8-0a78-4f85-895e-59ce202369b3"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h10e88f31ga340g7220g57cagf79b60b98df3" version="1"/>
+                    <attribute id="Name" type="FixedString" value="ArcaneJolt"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="82693afa-9760-4271-8c1e-9c2f49403e30"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="ArcaneJoltTurn"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="e66c5409-7a2f-4dbb-a599-1c9646c8faf2"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ORIGIN FEAT__"/>
                     <attribute id="UUID" type="guid" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b"/>
                 </node>
@@ -608,17 +621,15 @@
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="ArcaneJoltTurn"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="e66c5409-7a2f-4dbb-a599-1c9646c8faf2"/>
+                    <attribute id="Name" type="FixedString" value="__MONSTER HUNTER__"/>
+                    <attribute id="UUID" type="guid" value="dd747066-2ba5-4340-a15f-47a62a3b8f95"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h10e88f31ga340g7220g57cagf79b60b98df3" version="1"/>
-                    <attribute id="Name" type="FixedString" value="ArcaneJolt"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0cb6fe74ga523ge60dgf112g667d31b003f8" version="1"/>
+                    <attribute id="Name" type="FixedString" value="TransmutingMetabolism"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="82693afa-9760-4271-8c1e-9c2f49403e30"/>
+                    <attribute id="UUID" type="guid" value="c32f211e-5645-4bfe-a7f1-b98ed91b8350"/>
                 </node>
             </children>
         </node>
