@@ -3808,8 +3808,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e0ed025d-22e4-4551-b970-c69234d0dc59" />
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_FlameBlade" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="3d6" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="SimpleMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Unstowable;Light" enumeration_type_name="WeaponFlags" version="1" />
@@ -3818,44 +3818,6 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="HiddenDuringCinematic();CannotBeDisarmed()" />
         <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEAPON_COATED_WITH_POISON;POISON_BASIC;POISON_SERPENT_VENOM;POISON_WYVERN;POISON_WYVERN_DIPPED;POISON_PURPLE_WORM;DIPPED_FIRE;DIPPED_POISON;DIPPED_WATER" />
         <field name="Weight" type="FloatTableFieldDefinition" value="0.5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dc7fc49d-192e-4df4-af96-9ae57d907016" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_FlameBlade_3" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="e0ed025d-22e4-4551-b970-c69234d0dc59" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ef08606e-bb22-4549-affa-ae994c999571" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="4d6" />
-        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEAPON_COATED_WITH_POISON;POISON_BASIC;POISON_SERPENT_VENOM;POISON_WYVERN;POISON_WYVERN_DIPPED;POISON_PURPLE_WORM;DIPPED_FIRE;DIPPED_POISON;DIPPED_WATER" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="82eaefc9-2304-4f3a-9518-44b923b2eaea" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_FlameBlade_4" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="2ec307d5-adfb-4245-83c2-95c029bdcac8" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="5d6" />
-        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEAPON_COATED_WITH_POISON;POISON_BASIC;POISON_SERPENT_VENOM;POISON_WYVERN;POISON_WYVERN_DIPPED;POISON_PURPLE_WORM;DIPPED_FIRE;DIPPED_POISON;DIPPED_WATER" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="df64111d-2305-4a26-98f9-a1b17d0bc33a" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_FlameBlade_5" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="82eaefc9-2304-4f3a-9518-44b923b2eaea" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f55e23ed-e8df-4503-882f-99f1f2b33295" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="6d6" />
-        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEAPON_COATED_WITH_POISON;POISON_BASIC;POISON_SERPENT_VENOM;POISON_WYVERN;POISON_WYVERN_DIPPED;POISON_PURPLE_WORM;DIPPED_FIRE;DIPPED_POISON;DIPPED_WATER" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="91b772f6-23a6-4dac-bd67-f746aaecc6fc" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_FlameBlade_6" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="a5e34a8e-5e18-4864-8f6c-9c2c418d2539" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="7d6" />
-        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEAPON_COATED_WITH_POISON;POISON_BASIC;POISON_SERPENT_VENOM;POISON_WYVERN;POISON_WYVERN_DIPPED;POISON_PURPLE_WORM;DIPPED_FIRE;DIPPED_POISON;DIPPED_WATER" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -4120,8 +4082,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c46df38c-5449-46ff-bb91-94ef44c5e2ca" />
         <field name="Name" type="NameTableFieldDefinition" value="WPN_ShadowBlade" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c6352039-a985-4b94-886a-29dd7af0d203" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="2d8" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ShadowBlade_Passive" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);CannotBeDisarmed();HiddenDuringCinematic();" />
         <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEAPON_COATED_WITH_POISON;POISON_BASIC;POISON_SERPENT_VENOM;POISON_WYVERN;POISON_WYVERN_DIPPED;POISON_PURPLE_WORM;DIPPED_FIRE;DIPPED_POISON;DIPPED_WATER" />
