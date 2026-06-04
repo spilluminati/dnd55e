@@ -3931,4 +3931,48 @@ Cuando tú o un aliado que puedas ver golpea al objetivo maldito con una tirada 
   <content contentuid="h766f65e6g3d16g5e40g74e7ga8f8668f8d89" version="1">Camino a la Tumba (Radiante)</content>
   <content contentuid="hbdf05572gfd6fgc2b8g94f7ga66183c724c7" version="1">Camino a la Tumba (Necrótico)</content>
   <content contentuid="hc89a1458g2a97g6f71g4ec2g2f90e1ca5dcf" version="1">Atracción de la Muerte</content>
+  <content contentuid="hc89a1458g2a97g6f71g4ec2g2f90e1ca5dcf" version="1">Llamado de la Muerte</content>
+  <content contentuid="h36f8ec91gd0ffg30e0g363aga7612313e95b" version="1">Guardián Hueco</content>
+  <content contentuid="h52252f05gb82agd434gc0a3g495ebfd2fb82" version="1">Las leyendas cuentan que los terrores más antiguos y sanguinarios acechan en las profundidades de los viejos lugares de la tierra. Los Guardianes Huecos veneran a tales seres y extraen poder de ellos, transformándose en guardianes despiadados y monstruosos que rondan costas escarpadas, riscos de montaña y otros lugares oscuros y salvajes.</content>
+  <content contentuid="hfbcd8ecag6df7g76eeg5bbdge488cbd2d2ff" version="1">Nivel 3: Conjuros del Guardián Hueco</content>
+  <content contentuid="h9a3aa8d6g3cb8g0884g6d9eg5f6c2e19ad7b" version="1">Nivel 3: Ira de lo Salvaje</content>
+  <content contentuid="hdce7e79bg8885g6824g9637g6951304ec5c7" version="1">Nivel 7: Poder Hambriento</content>
+  <content contentuid="hf0a74333g96ebgca45ge544g1b9f0f8411cb" version="1">Nivel 11: Podredumbre y Violencia</content>
+  <content contentuid="h02a16612g51dege910g582fg8824be4f2aee" version="1">Cuando alcanzas el nivel de Explorador indicado en la tabla de Conjuros del Guardián Hueco, siempre tendrás preparado el conjuro correspondiente.</content>
+  <content contentuid="hd23192ffgdf59ga725g1c97g7e364650fe0c" version="1">Golpe Colérico en el nivel 3, Invocar Corcel en el nivel 5 y Guardianes Espirituales en el nivel 9.</content>
+  <content contentuid="h4d2b70ecgee46g15a5g5c0bga91856311ba5" version="1">Extraes poder de los extraños y ancestrales horrores de la tierra, haciendo que broten de ti deformidades antinatural, como cornamenta ensangrentada o colmillos putrefactos, o haciendo que tu sombra se alargue y retuerca a tu alrededor. Como Acción Adicional, puedes gastar un uso de Enemigo Predilecto para transformarte en una forma espantosa, obteniendo los siguientes beneficios durante 1 minuto o hasta que tengas la condición Incapacitado, mueras o termines la transformación (sin acción requerida).
+
+Armadura Ancestral. Obtienes un bonificador de +1 a la CA, ya que tu cuerpo se cubre de corteza podrida y cerdas bestiales. Este bonificador aumenta a +2 cuando alcanzas el nivel 11 de Explorador.
+
+Represalia Acechante. Inmediatamente después de que una criatura que puedas ver a 1,5 metros de ti inflija daño a ti o a uno de tus aliados, puedes realizar un Ataque de Oportunidad contra esa criatura.
+
+Aura Perturbadora. Cuando te transformas y al inicio de cada uno de tus turnos posteriores, cada criatura de tu elección en una Emanación de 3 metros que emana desde ti debe superar una tirada de salvación de Sabiduría contra tu CD de conjuros. Si falla, la criatura tiene la condición Asustado hasta el inicio de tu próximo turno.</content>
+  <content contentuid="h197a4fbbg54d8g3303g20b2ga713257e8f7a" version="1">Obtienes un bonificador a las tiradas de salvación de Constitución igual a tu modificador de Sabiduría (mínimo +1).
+
+Además, una vez por turno cuando golpeas a una criatura con una tirada de ataque mientras estás transformado con Ira de lo Salvaje, recuperas un número de Puntos de Golpe igual a 1d10 más tu modificador de Sabiduría, siempre que estés Ensangrentado al golpear.</content>
+  <content contentuid="hfcbd3784g4436g3a40g1260g63eb8006c7fa" version="2">Tu devoción a los seres eldritch salvajes te transforma aún más. Cuando estás transformado con Ira de lo Salvaje, obtienes los siguientes beneficios adicionales.
+
+Aura Amenazante. Cuando una criatura falla su tirada de salvación contra tu Aura Perturbadora, tampoco puede recuperar Puntos de Golpe ni usar Reacciones hasta el inicio de tu próximo turno.
+
+Golpes Funestos. Cuando golpeas a una criatura con la condición Asustado con una tirada de ataque, ese ataque inflige daño adicional igual a tu modificador de Sabiduría.</content>
+  <content contentuid="h656241edg097dg71d1gc1ddg80f0965b5079" version="1">Ira de lo Salvaje</content>
+  <content contentuid="h552007ebg0886g488bgccfag99d4097696ee" version="1">Extraes poder de los extraños y ancestrales horrores de la tierra, haciendo que broten de ti deformidades antinaturales, como cornamenta ensangrentada o colmillos putrefactos, o haciendo que tu sombra se alargue y retuerca a tu alrededor. Como Acción Adicional, puedes gastar un uso de Enemigo Predilecto para transformarte en una forma espantosa, obteniendo los siguientes beneficios durante 1 minuto o hasta que tengas la condición Incapacitado, mueras o termines la transformación (sin acción requerida).
+
+Armadura Ancestral. Obtienes un bonificador de +1 a la CA, ya que tu cuerpo se cubre de corteza podrida y cerdas bestiales. Este bonificador aumenta a +2 cuando alcanzas el nivel 11 de Explorador.
+
+Represalia Acechante. Inmediatamente después de que una criatura que puedas ver a 1,5 metros de ti inflija daño a ti o a uno de tus aliados, puedes realizar un Ataque de Oportunidad contra esa criatura.
+
+Aura Perturbadora. Cuando te transformas y al inicio de cada uno de tus turnos posteriores, cada criatura de tu elección en una Emanación de 3 metros que emana desde ti debe superar una tirada de salvación de Sabiduría contra tu CD de conjuros. Si falla, la criatura tiene la condición Asustado hasta el inicio de tu próximo turno.</content>
+  <content contentuid="h6bf206d3ga5dag2afag19eegf2c35e7a534e" version="1">Siempre tienes Marca del Cazador preparada. Puedes lanzarla sin gastar un espacio de conjuro un número de veces igual al valor indicado en la columna Enemigo Predilecto de la tabla de Rasgos del Explorador. Recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
+  <content contentuid="h0707320dgdc67g5261gca84g8c7ba39b2add" version="1">Puedes lanzar Marca del Cazador sin gastar un espacio de conjuro dos veces en el nivel 1, tres veces en el nivel 5 y cuatro veces en el nivel 9.</content>
+  <content contentuid="h41856fd8g557fg1204g89c3gd79299a20aba" version="1">Ira de lo Salvaje</content>
+  <content contentuid="h5b50bb5cg8fd5g63ccgdf38gc338449b5822" version="1">Extraes poder de los extraños y ancestrales horrores de la tierra, haciendo que broten de ti deformidades antinaturales, como cornamenta ensangrentada o colmillos putrefactos, o haciendo que tu sombra se alargue y retuerca a tu alrededor. Como Acción Adicional, puedes gastar un uso de Enemigo Predilecto para transformarte en una forma espantosa, obteniendo los siguientes beneficios durante 1 minuto o hasta que tengas la condición Incapacitado, mueras o termines la transformación (sin acción requerida).</content>
+  <content contentuid="hf1d97e50g4266g20d2gfa31gc28b01a57f91" version="1">Represalia Acechante</content>
+  <content contentuid="hd4469619g376dg9d74gbfb4gb103475e4356" version="1">Inmediatamente después de que una criatura que puedas ver a 1,5 metros de ti inflija daño a ti o a uno de tus aliados, puedes realizar un Ataque de Oportunidad contra esa criatura.</content>
+  <content contentuid="hcb469b5ag81e6gc10dgf121g03e0273e12e0" version="1">Aura Perturbadora</content>
+  <content contentuid="hfe6b221fg701bg9db4gdb32ga44f7bac6573" version="1">Cuando te transformas y al inicio de cada uno de tus turnos posteriores, cada criatura de tu elección en una Emanación de 3 metros que emana desde ti debe superar una tirada de salvación de Sabiduría contra tu CD de conjuros. Si falla, la criatura tiene la condición Asustado hasta el inicio de tu próximo turno.</content>
+  <content contentuid="hccc59875g41d7g8efag4ac7gd30ae86a609f" version="1">Poder Hambriento</content>
+  <content contentuid="h5d295166ga39bg4056gc6afg3170dfffabae" version="1">Recuperas un número de Puntos de Golpe igual a 1d10 más tu modificador de Sabiduría.</content>
+  <content contentuid="h69a7fb39g6a1dg8cc5g6b7egf436399cf817" version="1">Aura Amenazante</content>
+  <content contentuid="h2dd6c79cg9334g06a2g3d43geab02d13b382" version="1">Cuando una criatura falla su tirada de salvación contra el Aura Perturbadora, tampoco puede recuperar Puntos de Golpe ni usar Reacciones hasta el inicio de tu próximo turno.</content>
 </contentList>
