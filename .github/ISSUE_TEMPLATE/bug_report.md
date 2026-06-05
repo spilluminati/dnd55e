@@ -8,10 +8,12 @@ assignees: ''
 ---
 
 # Important
-- Search existing issues before creating a new report, including closed issues.
-- Questions, support requests, balance feedback, and general discussions belong in Discussions, not Issues.
-- Duplicate reports may be closed.
-- Reports without clear reproduction steps may be closed.
-- If the issue cannot be reproduced on a new game, please provide evidence that it is caused by this mod before submitting a report.
-- One issue = one problem.
-- Include screenshots, videos, and combat logs whenever possible.
+
+* Questions, support requests, balance feedback, and general discussions belong in Discussions, not Issues.
+* Search existing issues before creating a new report, including closed issues.
+* Duplicate reports may be closed.
+* If the issue cannot be reproduced on a new game, please provide evidence that it is caused by this mod before submitting a report.
+* Reports without clear reproduction steps may be closed.
+* One issue = one problem.
+* Use a clear and descriptive title. Avoid vague titles such as "Bug", "Doesn't Work", or "Issue".
+* Include screenshots, videos, and combat logs whenever possible.
