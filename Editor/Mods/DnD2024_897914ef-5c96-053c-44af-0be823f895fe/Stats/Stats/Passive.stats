@@ -1766,6 +1766,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h32554089g3cb1g5105g77b7g4afa486c46cf" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1779,6 +1780,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SpareTheDying_BonusAction);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(ClassLevel(Cleric));" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1790,6 +1792,7 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="HasHPPercentageWithoutTemporaryHPLessThan(50,context.Target);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(LevelMapValue(PullOfDeath),Necrotic,Magical)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc89a1458g2a97g6f71g4ec2g2f90e1ca5dcf" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1801,6 +1804,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_PathToTheGrave);UnlockInterrupt(Interrupt_PathToTheGrave_Radiant);UnlockInterrupt(Interrupt_PathToTheGrave_Necrotic);" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1813,6 +1817,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_6_SentinelAtDeathsDoor" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_SentinelAtDeathsDoor);" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1822,6 +1827,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
