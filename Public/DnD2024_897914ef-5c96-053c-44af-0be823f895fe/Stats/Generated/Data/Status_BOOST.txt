@@ -129,6 +129,18 @@ data "StatusType" "BOOST"
 using "POISONED"
 data "StatusPropertyFlags" "InitiateCombat;TickingWithSource"
 
+new entry "POISONED_CLOUD"
+type "StatusData"
+data "StatusType" "BOOST"
+using "POISONED_CLOUD"
+data "StatusPropertyFlags" "InitiateCombat"
+
+new entry "BIBBERBANG_FUMES"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BIBBERBANG_FUMES"
+data "StatusPropertyFlags" "InitiateCombat"
+
 new entry "GOADING_ATTACK"
 type "StatusData"
 data "StatusType" "BOOST"
