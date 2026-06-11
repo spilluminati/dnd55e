@@ -4487,4 +4487,6 @@ If you hit a creature with this weapon and deal damage to it, you can reduce its
   <content contentuid="h10007b53gb4bcgbac3g9089g6d911c3cc5d4" version="1">Weapon Mastery: Vex
 
 If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</content>
+  <content contentuid="heb62505ag46b9gede3gde91gf79191d5fe3f" version="1">Level 3: Umbral Sight</content>
+  <content contentuid="h69aa6922g1e3fg07e9g5e91g36b8b2c05d1e" version="2">Once per turn, when you move into a Heavily or Lightly Obscured area, you gain the Invisible condition.</content>
 </contentList>

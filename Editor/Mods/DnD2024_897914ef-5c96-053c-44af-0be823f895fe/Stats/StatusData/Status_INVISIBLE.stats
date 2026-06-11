@@ -26,5 +26,13 @@
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40918bca-d32a-472b-9df6-1b2c79085bd1" />
+        <field name="Name" type="NameTableFieldDefinition" value="INVISIBILITY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="054f65fc-e741-4222-9668-39bf86941cd9" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

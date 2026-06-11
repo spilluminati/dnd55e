@@ -3525,6 +3525,27 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5fa36fd-6333-4544-b36f-4bebf1acad4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="GloomStalker_3_UmbralSight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb62505ag46b9gede3gde91gf79191d5fe3f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h69aa6922g1e3fg07e9g5e91g36b8b2c05d1e" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_UmbralCloak" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnObscurityChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(HasObscuredState(ObscuredState.HeavilyObscured) or HasObscuredState(ObscuredState.LightlyObscured)) and not HasStatus('SEE_INVISIBILITY_REVEAL') and not HasStatus('FAERIE_FIRE') and not HasStatus('BRANDING_SMITE');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnObscurityChanged)):ApplyStatus(INVISIBILITY,100,1);CreateExplosion(Projectile_Shadowblend_Effect);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0fdd111b-a974-4694-922d-23689d2126ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3ed999c2-b734-41b3-bf4c-160e43b552ae" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="58f3fcbf-861b-44ff-a868-bb2f135c43b8" />
         <field name="Name" type="NameTableFieldDefinition" value="DreadAmbusher" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7192d1f0-9cee-4a20-95cb-327c58d3b4ee" />

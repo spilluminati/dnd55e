@@ -17,3 +17,9 @@ using "ONE_WITH_SHADOWS"
 data "RemoveEvents" "OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished"
 data "RemoveConditions" "(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))"
 
+new entry "INVISIBILITY"
+type "StatusData"
+data "StatusType" "INVISIBLE"
+using "INVISIBILITY"
+data "TickType" "StartTurn"
+
