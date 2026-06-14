@@ -298,7 +298,7 @@ data "StatusType" "BOOST"
 data "StackId" "WEAPONMASTERY_NICK"
 data "StackType" "Overwrite"
 data "TickType" "StartTurn"
-data "Boosts" "AttackSpellOverride(Target_MainHandAttack_OnlyNick, Target_MainHandAttack);ActionResource(NickActionPoint,1,0);UnlockSpellVariant(SpellId('Target_OffhandAttack') or SpellId('Projectile_OffhandAttack'), ModifyUseCosts(Replace,NickActionPoint,1,0,BonusActionPoint));"
+data "Boosts" "AttackSpellOverride(Target_MainHandAttack_OnlyNick, Target_MainHandAttack);ActionResource(NickActionPoint,1,0);UnlockSpellVariant(SpellId('Target_OffhandAttack') or SpellId('Projectile_OffhandAttack'),ModifyUseCosts(Add,NickActionPoint,1,0));"
 data "StatusPropertyFlags" "ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "IsUnique" "1"
 

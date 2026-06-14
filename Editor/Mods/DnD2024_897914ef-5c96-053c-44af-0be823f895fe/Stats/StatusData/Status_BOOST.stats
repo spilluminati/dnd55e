@@ -376,7 +376,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="18acb5cb-34a7-4d00-81c3-aefd9be088e9" />
         <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_NICK" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Target_MainHandAttack_OnlyNick, Target_MainHandAttack);ActionResource(NickActionPoint,1,0);UnlockSpellVariant(SpellId('Target_OffhandAttack') or SpellId('Projectile_OffhandAttack'), ModifyUseCosts(Replace,NickActionPoint,1,0,BonusActionPoint));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Target_MainHandAttack_OnlyNick, Target_MainHandAttack);ActionResource(NickActionPoint,1,0);UnlockSpellVariant(SpellId('Target_OffhandAttack') or SpellId('Projectile_OffhandAttack'),ModifyUseCosts(Add,NickActionPoint,1,0));" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONMASTERY_NICK" />
