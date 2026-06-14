@@ -6,10 +6,19 @@ KBSECTION
 IF
 StatusApplied(_Character, "SURPRISED", _Causee, _)
 AND
-HasActiveStatus(_Character, "SURPRISED_PENALTY", 0)
+IsPlayer((CHARACTER)_Character, 0)
+AND
+GetFaction(_Character, _FactionNPC)
+AND
+GetHostCharacter(_Player)
+AND
+GetFaction(_Player, _FactionPlayer)
 THEN
-ApplyStatus(_Character, "SURPRISED_PENALTY", 60.0, 1, _Character);
+ApplyStatus(_Character, "SURPRISED_PENALTY", 6.0, 1, _Character);
 LeaveCombat(_Character);
+SetRelation((FACTION)_FactionPlayer, (FACTION)_FactionNPC, 0);
+SetHostileAndEnterCombat((FACTION)_FactionPlayer, (FACTION)_FactionNPC, (GUIDSTRING)_Player, (GUIDSTRING)_Character);
+
 EXITSECTION
 
 ENDEXITSECTION

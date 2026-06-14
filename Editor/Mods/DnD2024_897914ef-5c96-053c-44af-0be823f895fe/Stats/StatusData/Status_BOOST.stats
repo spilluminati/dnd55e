@@ -220,17 +220,9 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="55c1ae4f-01b0-44dd-b926-855170ae58eb" />
+        <field name="UUID" type="IdTableFieldDefinition" value="455fe96f-7144-4b84-9885-32316ac3e9b1" />
         <field name="Name" type="NameTableFieldDefinition" value="SURPRISED" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1311946eg0f6eg3884gb766ga518b4884a4d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdaea4751gf57bg4b28g0266g1e1630af444e" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Status_Surprised" />
-        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndRound" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(-5);" />
-        <field name="SoundStart" type="StringTableFieldDefinition" value="Misc_Status_Surprised_MO" />
-        <field name="StackId" type="StringTableFieldDefinition" value="SURPRISED" />
-        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="06042524-4374-4216-bbd5-ba9168b6006b" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="55c1ae4f-01b0-44dd-b926-855170ae58eb" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -242,11 +234,11 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndRound" enumeration_type_name="TickType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(-5);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="06042524-4374-4216-bbd5-ba9168b6006b" />
         <field name="SoundStart" type="StringTableFieldDefinition" value="Misc_Status_Surprised_MO" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a9a1666gd0c6gb6d5g9f5dga7c149830daa" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Status_Surprised" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="455fe96f-7144-4b84-9885-32316ac3e9b1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h50b49a89g7327gee14gb91dg12153f8b0fd5" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
