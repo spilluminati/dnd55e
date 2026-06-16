@@ -307,7 +307,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="367e04a9-9e10-481c-987f-8b94f9ae0015" />
         <field name="FeatId" type="GuidTableFieldDefinition" value="3fe71254-d1b2-44c7-886c-927552fe5f2e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf7e607eg1421g2fc9g4205gd10b92961b19" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he75553c3gd15ag322eg1dcega59ac6593319" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he75553c3gd15ag322eg1dcega59ac6593319" version="4" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="ShieldMaster" />
       </fields>
     </stat_object>

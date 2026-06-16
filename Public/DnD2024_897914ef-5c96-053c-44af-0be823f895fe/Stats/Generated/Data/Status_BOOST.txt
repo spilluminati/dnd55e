@@ -329,6 +329,12 @@ data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead;ApplyToDead"
 data "OnApplyFunctors" "Force(3)"
 
+new entry "PUSH_5FEET"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PUSH_3M"
+data "OnApplyFunctors" "Force(1.5)"
+
 new entry "PULL_3M"
 type "StatusData"
 data "StatusType" "BOOST"

@@ -8931,6 +8931,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46f4f79b-ddec-4e86-9422-cb4164266cc4" />
+        <field name="Name" type="NameTableFieldDefinition" value="PolearmMaster_BonusAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d49ada2d-b5e8-418e-a99b-1596d60e4d05" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({'SHILLELAGH_10', 'SHILLELAGH_5', 'SHILLELAGH'}, {}, {}, GetAttackWeapon())):DealDamage(1d4+SpellCastingAbilityModifier, Bludgeoning,,,0,,,,,,MainMeleeWeapon);IF(not HasAnyStatus({'SHILLELAGH_10', 'SHILLELAGH_5', 'SHILLELAGH'}, {}, {}, GetAttackWeapon()) and HasAnyStatus({}, {}, {'HEXBLADE_BIND', 'PACT_BLADE'}, GetAttackWeapon())):DealDamage(1d4+max(DexterityModifier,StrengthModifier), Bludgeoning,,,0,,,,,,MainMeleeWeapon);IF(not HasAnyStatus({'SHILLELAGH_10', 'SHILLELAGH_5', 'SHILLELAGH'}, {}, {}, GetAttackWeapon()) and HasAnyStatus({'HEXBLADE_BIND', 'PACT_BLADE'}, {}, {}, GetAttackWeapon())):DealDamage(1d4+CharismaModifier, Bludgeoning,,,0,,,,,,MainMeleeWeapon);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c9495fc8-832b-4b72-9074-73dc01470023" />
         <field name="Name" type="NameTableFieldDefinition" value="Longstrider_Ritual" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0e372d58-ec10-49ca-b8f6-a2198d7054a4" />

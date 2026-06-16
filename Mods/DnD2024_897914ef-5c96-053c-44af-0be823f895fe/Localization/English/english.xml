@@ -1086,11 +1086,11 @@ Firing in Melee. Being within 5 feet of an enemy doesn’t impose Disadvantage o
 
 Long Shots. Attacking with a two-handed ranged weapon increases its normal range to 90 feet.</content>
   <content contentuid="hcf7e607eg1421g2fc9g4205gd10b92961b19" version="1">Shield Master</content>
-  <content contentuid="he75553c3gd15ag322eg1dcega59ac6593319" version="3">Shield Bash. As a bonus action, you can strike a creature with your shield. When you do so, you can either push the target away from you or knock it Prone.
+  <content contentuid="he75553c3gd15ag322eg1dcega59ac6593319" version="4">Shield Bash. If you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can immediately bash the target with your Shield if it’s equipped, forcing the target to make a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, you either push the target 5 feet from you or cause it to have the Prone condition (your choice). You can use this benefit only once on each of your turns.
 
 Interpose Shield. If you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a Reaction to take no damage if you succeed on the saving throw and are holding a Shield.</content>
   <content contentuid="h99a1f866g5649g1e74gc90fgd29c50fa0426" version="1">Feat: Shield Master</content>
-  <content contentuid="h5752835cge17egb9e8g58cdgb5e2500ab72d" version="2">Shield Bash. As a bonus action, you can strike a creature with your shield. When you do so, you can either push the target away from you or knock it Prone.
+  <content contentuid="h5752835cge17egb9e8g58cdgb5e2500ab72d" version="3">Shield Bash. If you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can immediately bash the target with your Shield if it’s equipped, forcing the target to make a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, you either push the target 5 feet from you or cause it to have the Prone condition (your choice). You can use this benefit only once on each of your turns.
 
 Interpose Shield. If you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a Reaction to take no damage if you succeed on the saving throw and are holding a Shield.</content>
   <content contentuid="h7703cd86g07afg9672g1765g96366fbc1138" version="1">Shield Bash: Shove</content>
@@ -4581,4 +4581,7 @@ When the Cylinder appears, each creature in it makes a Constitution saving throw
   <content contentuid="hdaa04befg3a9bg9a3dga72eg04c235ed8c01" version="1">Spinning daggers fill the air. Anyone who ends their turn inside the whirlwind takes [1].</content>
   <content contentuid="h46e9e82fg3994g14dageffdg4ecef2102490" version="1">Spinning daggers fill the air. Anyone who ends their turn inside the whirlwind takes [1].</content>
   <content contentuid="he983b2f2gd458g80bdg28d9g76d209dcf6d6" version="1">Spinning daggers fill the air. Anyone who ends their turn inside the whirlwind takes [1].</content>
+  <content contentuid="h8c43a796gf6abg9b17ga6e7g640846c1d925" version="1">Shield Bash (Shove)</content>
+  <content contentuid="he6b03eaeg69d3geb4cgfcafg07e44f75a6d9" version="1">If you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can immediately bash the target with your Shield if it’s equipped, forcing the target to make a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, you either push the target 5 feet from you or cause it to have the Prone condition (your choice). You can use this benefit only once on each of your turns.</content>
+  <content contentuid="he6c26bfag496eg4545g66e5g0166e2cb0452" version="1">Shield Bash (Prone)</content>
 </contentList>

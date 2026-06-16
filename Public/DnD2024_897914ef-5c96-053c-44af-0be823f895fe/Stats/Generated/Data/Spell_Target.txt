@@ -7546,6 +7546,12 @@ data "TargetEffect" "e4c72416-8872-4278-9bd2-ce1529ca88d7"
 data "SpellSoundMagnitude" "Small"
 data "Sheathing" "Melee"
 
+new entry "Target_PolearmMaster_BonusAttack"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PolearmMaster_BonusAttack"
+data "SpellSuccess" "IF(HasAnyStatus({'SHILLELAGH_10', 'SHILLELAGH_5', 'SHILLELAGH'}, {}, {}, GetAttackWeapon())):DealDamage(1d4+SpellCastingAbilityModifier, Bludgeoning,,,0,,,,,,MainMeleeWeapon);IF(not HasAnyStatus({'SHILLELAGH_10', 'SHILLELAGH_5', 'SHILLELAGH'}, {}, {}, GetAttackWeapon()) and HasAnyStatus({}, {}, {'HEXBLADE_BIND', 'PACT_BLADE'}, GetAttackWeapon())):DealDamage(1d4+max(DexterityModifier,StrengthModifier), Bludgeoning,,,0,,,,,,MainMeleeWeapon);IF(not HasAnyStatus({'SHILLELAGH_10', 'SHILLELAGH_5', 'SHILLELAGH'}, {}, {}, GetAttackWeapon()) and HasAnyStatus({'HEXBLADE_BIND', 'PACT_BLADE'}, {}, {}, GetAttackWeapon())):DealDamage(1d4+CharismaModifier, Bludgeoning,,,0,,,,,,MainMeleeWeapon);"
+
 new entry "Target_Longstrider_Ritual"
 type "SpellData"
 data "SpellType" "Target"

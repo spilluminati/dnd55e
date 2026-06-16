@@ -215,7 +215,7 @@
                     <attribute id="UUID" type="guid" value="19ec3631-4933-4695-a65c-84fbbcebe796"/>
                 </node>
                 <node id="FeatDescription">
-                    <attribute id="Description" type="TranslatedString" handle="he75553c3gd15ag322eg1dcega59ac6593319" version="3"/>
+                    <attribute id="Description" type="TranslatedString" handle="he75553c3gd15ag322eg1dcega59ac6593319" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hcf7e607eg1421g2fc9g4205gd10b92961b19" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="ShieldMaster"/>
                     <attribute id="FeatId" type="guid" value="3fe71254-d1b2-44c7-886c-927552fe5f2e"/>
