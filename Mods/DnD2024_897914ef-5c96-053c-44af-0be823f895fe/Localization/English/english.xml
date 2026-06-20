@@ -272,7 +272,7 @@ Add half of your Wisdom Modifier to &lt;LSTag Tooltip="AbilityCheck"&gt;Ability 
   <content contentuid="h8f1b692bg604cgb34cg9e64g7c5d22aebe85" version="1">Level 2: Wild Shape</content>
   <content contentuid="hc6dea6aag9290gf3cegeb8ag0351bd8d0fc5" version="2">You can use a Bonus Action to transform into a known Beast form using Wild Shape. You can end the transformation early as a Bonus Action. You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level. You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast.</content>
   <content contentuid="h1505dff7gb11cg17eageb5dg29f041ed571a" version="1">Level 2: Wild Shape</content>
-  <content contentuid="h8e8ebc40g6f5cg5d29gc885g2f7fb0f2899b" version="1">Wild Shape</content>
+  <content contentuid="h8e8ebc40g6f5cg5d29gc885g2f7fb0f2899b" version="2">Wild Shape Vitality</content>
   <content contentuid="h2e1bf345gb5fcg3bbag17c4g7ac514e8455e" version="1">When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.</content>
   <content contentuid="h8a519044g61f3g7166g3e0cg6c97799602e4" version="1">Wild Shape: Badger</content>
   <content contentuid="h9c56ac47g3984g90a8g0115g3a3000abd94a" version="1">Wild Shape: Polar Bear</content>

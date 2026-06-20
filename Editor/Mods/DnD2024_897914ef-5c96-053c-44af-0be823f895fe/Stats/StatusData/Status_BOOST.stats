@@ -2577,7 +2577,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7b211a00-eb33-42a0-9499-66f75b344b3b" />
         <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_TEMPHP_DRUIDLEVEL" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e8ebc40g6f5cg5d29gc885g2f7fb0f2899b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e8ebc40g6f5cg5d29gc885g2f7fb0f2899b" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e1bf345gb5fcg3bbag17c4g7ac514e8455e" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
         <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE_TEMPHP_DRUIDLEVEL" />
