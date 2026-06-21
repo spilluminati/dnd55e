@@ -88,6 +88,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="YDistanceToTargetGreaterOrEqual(1.5);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7" version="4" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="Movement:3" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsJump;HasHighGroundRangeExtension;IgnoreVisionBlock;Stealth;Invisible;CannotTargetCharacter;CannotTargetItems;Temporary" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

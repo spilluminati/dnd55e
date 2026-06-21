@@ -68,6 +68,7 @@ using "Projectile_Jump"
 data "TargetConditions" "YDistanceToTargetGreaterOrEqual(1.5);"
 data "DisplayName" "hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7;4"
 data "UseCosts" "Movement:3"
+data "SpellFlags" "IsJump;HasHighGroundRangeExtension;IgnoreVisionBlock;Stealth;Invisible;CannotTargetCharacter;CannotTargetItems;Temporary"
 
 new entry "Projectile___DIVINATION__"
 type "SpellData"
