@@ -1034,6 +1034,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bf9f0b65-d2c5-4b7b-b3c4-9d0a2ef2a4c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ProjectedWard" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff0ae357-37be-4bcb-8474-5322c5554845" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf1f2ce33g9f28ga79dg8ad9g713bd9d1afd1" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target,context.Observer) and not Self(context.Target,context.Observer) and HasStatus('ARCANE_WARD_55E',context.Observer) and not AnyEntityIsItem() and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="HasTemporaryHP();" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnDamage;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9a2465c7-42b1-4169-9e9c-4c7327d9d1bd" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Shield_Wizard" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8d53d12a-97bf-46a0-b8cc-fb1f0c1a3f4e" />
@@ -1409,13 +1421,6 @@
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;FlashOfGenius:1;" />
         <field name="Stack" type="StringTableFieldDefinition" value="FlashOfGenius" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0146ee49-1287-46e5-bcd0-1e1ff8fc8e5f" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f9ffe662-f440-4f3b-8bd6-35ea1c7dddaf" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

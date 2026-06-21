@@ -5703,7 +5703,7 @@
                     <attribute id="Boosts" type="LSString" value="Savant(Abjuration)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="AbjurationSchool"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ArcaneWard;ArcaneWard_Cast"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ArcaneWard_55e;ArcaneWard_Cast_55e"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="9f0fd3ac-7520-45fa-9f7d-08b1ca6eacf3"/>
                     <attribute id="UUID" type="guid" value="2bc2b4ab-426b-424f-a723-0ec49a9cf25c"/>

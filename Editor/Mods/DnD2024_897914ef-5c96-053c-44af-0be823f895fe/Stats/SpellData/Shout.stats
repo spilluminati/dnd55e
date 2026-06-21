@@ -2910,6 +2910,87 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4b92c6b-555d-4da6-84d2-ea929bde3e00" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ArcaneWard_1;Shout_ArcaneWard_2;Shout_ArcaneWard_3;Shout_ArcaneWard_4;Shout_ArcaneWard_5;Shout_ArcaneWard_6;" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_ArcaneWard" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21e9c371g94d2g99bbgc117g1f69a24cfd8a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h441c9c45ge8e7g3d2cg79e6g8a57eab6e20d" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_ArcaneRecovery" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_ArcaneRecovery" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03114753-8d91-4c52-8207-728a67cdd59b,,;,,;51c06d74-c048-452a-a248-41a751728e3e,,;e9731a5c-e4ba-4872-8950-36d625061ec3,,;8fcb1f19-a84b-486d-81fa-098aaf7cc9be,,;,,;c5bd6ce6-281c-4314-9f74-9f7bb2f4cf03,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="af787096-8656-4495-a6ce-cbd376578069" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b7fb4cd6-971f-44c0-9447-378092d36b63" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="76da1d51-f5e4-4c2d-b881-cacc02dd1c96" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d4b92c6b-555d-4da6-84d2-ea929bde3e00" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ArcaneWard" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9cf4b638-ca2c-4226-86f5-33989ce69d4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="76da1d51-f5e4-4c2d-b881-cacc02dd1c96" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c57e1272-3c9e-4b12-b73e-e9d42471477c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="76da1d51-f5e4-4c2d-b881-cacc02dd1c96" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c76d762-3ee8-4eba-a29c-f6e1cd13b3ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="76da1d51-f5e4-4c2d-b881-cacc02dd1c96" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2624b580-a6eb-4697-a2af-9b2d4eacf434" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="76da1d51-f5e4-4c2d-b881-cacc02dd1c96" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66272fdc-8b37-4bae-a5a1-29141d1fc4b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="76da1d51-f5e4-4c2d-b881-cacc02dd1c96" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="192f0760-3734-4f2e-8858-de8eb40ef105" />
         <field name="Name" type="NameTableFieldDefinition" value="Shield_ArcaneWard" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />

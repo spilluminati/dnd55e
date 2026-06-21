@@ -5529,6 +5529,53 @@
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="358e8969-9d7b-45ef-a88e-de0f69b3266b" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ABJURER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b36bb627-38e8-49f4-b4b5-e0ad74d0b2e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_55e" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d0789086-273f-4aab-8ca3-292aa040973d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf84da708gedbeg7292g73f4gacc5ef7a3c10" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h211b59f7g914aga7a2gaf0eg6d3b97922133" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12103" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ArcaneWard,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ARCANE_WARD_55E,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a5023f5a-8f34-49e7-b85c-8aecbd027df1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_Cast_55e" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef2fc58c-aec6-4a3c-9ad3-f273f939498d" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainTemporaryHitPoints(SpellPowerLevel*2);ApplyStatus(SELF,ARCANE_WARD_55E_RESTORE,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ca087940-dc38-4457-9420-bf86976f82be" />
+        <field name="Name" type="NameTableFieldDefinition" value="ProjectedWard" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e6fbacaf-908f-41a5-a977-6a9bde3f1d41" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19c5b950gb887g4a56g312cga3c9a0b8839a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h173a0fccg668ag5a93gc996gfe83b0867a07" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3be06540-48e2-47f6-abc2-395dad7e67cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedAbjuration" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8fdc14f6-2e06-4737-a00c-37c0ea88ff01" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h288cd5f8gfde5gf844g35b4g78176c8d8034" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d3fbbaegc6b1gf48egd8c4gef06e95785f3" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ARCANE_WARD_55E,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="92a35c16-1faa-451d-bd2b-92c93439e30d" />
         <field name="Name" type="NameTableFieldDefinition" value="__WIZARD__DIVINDER__" />
       </fields>

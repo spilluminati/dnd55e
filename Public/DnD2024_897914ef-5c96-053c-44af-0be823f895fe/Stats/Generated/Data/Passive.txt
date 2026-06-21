@@ -4012,6 +4012,38 @@ data "Icon" "PassiveFeature_BookOfAncientSecrets"
 data "PriorityOrder" "12002"
 data "Properties" "Highlighted;ForceShowInCC"
 
+new entry "__ABJURER__"
+type "PassiveData"
+
+new entry "ArcaneWard_55e"
+type "PassiveData"
+using "ArcaneWard"
+data "DisplayName" "hf84da708gedbeg7292g73f4gacc5ef7a3c10;1"
+data "Description" "h211b59f7g914aga7a2gaf0eg6d3b97922133;1"
+data "PriorityOrder" "12103"
+data "Boosts" "UnlockSpell(Shout_ArcaneWard,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "Conditions" ""
+data "StatsFunctors" "ApplyStatus(SELF,ARCANE_WARD_55E,100,-1)"
+
+new entry "ArcaneWard_Cast_55e"
+type "PassiveData"
+using "ArcaneWard_Cast"
+data "StatsFunctors" "RegainTemporaryHitPoints(SpellPowerLevel*2);ApplyStatus(SELF,ARCANE_WARD_55E_RESTORE,100,0)"
+
+new entry "ProjectedWard"
+type "PassiveData"
+using "ProjectedWard"
+data "DisplayName" "h19c5b950gb887g4a56g312cga3c9a0b8839a;1"
+data "Description" "h173a0fccg668ag5a93gc996gfe83b0867a07;1"
+
+new entry "ImprovedAbjuration"
+type "PassiveData"
+using "ImprovedAbjuration"
+data "DisplayName" "h288cd5f8gfde5gf844g35b4g78176c8d8034;1"
+data "Description" "h9d3fbbaegc6b1gf48egd8c4gef06e95785f3;1"
+data "StatsFunctors" "ApplyStatus(SELF,ARCANE_WARD_55E,100,-1)"
+
 new entry "__WIZARD__DIVINDER__"
 type "PassiveData"
 

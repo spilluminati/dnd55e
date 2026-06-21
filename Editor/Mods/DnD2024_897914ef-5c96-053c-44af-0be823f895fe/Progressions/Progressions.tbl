@@ -7288,7 +7288,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="AbjurationSchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ArcaneWard;ArcaneWard_Cast" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ArcaneWard_55e;ArcaneWard_Cast_55e" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Savant(Abjuration)" />
       </fields>
     </stat_object>
