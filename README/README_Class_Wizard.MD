@@ -8,6 +8,9 @@
 - Level 2: Ritual Adept
 - Level 2: Scholar
 ## Abjurer
+- Level 3: Arcane Ward
+- Level 6: Projected Ward
+- Level 10: Improved Arcane Ward
 ## Bladesinger
 - Level 3: Bladesong
 - Level 3: Training in War and Song
