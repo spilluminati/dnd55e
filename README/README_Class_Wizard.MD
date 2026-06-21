@@ -14,6 +14,9 @@
 - Level 6: Extra Attack
 - Level 10: Song of Defense
 ## Diviner
+- Level 3: Portent
+- Level 6: Expert Divination
+- Level 10: The Third Eye
 ## Evoker
 - Level 3: Potent Cantrip
 - Level 6: Sculpt Spells

@@ -5529,6 +5529,34 @@
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92a35c16-1faa-451d-bd2b-92c93439e30d" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD__DIVINDER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="499d3ac2-e58e-47e8-94a6-26ed682aa28c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Portent" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90f43911-d99c-42b9-999c-217c0aadbbad" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae8e8ce3g458fg9150gdb09g00c46fe3fe62" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12103" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bed3b9f9-b56f-44a5-b483-aa6407442548" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExpertDivination" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ae52f029-dabf-4455-87f6-600c571ccbf0" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSpellSchool(SpellSchool.Divination);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(6)):RestoreResource(SELF,SpellSlot,1,5);IF(SpellPowerLevelEqualTo(5)):RestoreResource(SELF,SpellSlot,1,4);IF(SpellPowerLevelEqualTo(4)):RestoreResource(SELF,SpellSlot,1,3);IF(SpellPowerLevelEqualTo(3)):RestoreResource(SELF,SpellSlot,1,2);IF(SpellPowerLevelEqualTo(2)):RestoreResource(SELF,SpellSlot,1,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9570e7b5gd9ceg5a34g04aagac5235955484" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h15504b2agf3a9gc7f3g51e1g6775163e7006" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12106" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f1311622-7914-4c81-862f-9fd5889c5159" />
         <field name="Name" type="NameTableFieldDefinition" value="__WIZARD__EVOKER__" />
       </fields>

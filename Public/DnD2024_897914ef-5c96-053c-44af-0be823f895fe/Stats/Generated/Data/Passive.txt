@@ -4012,6 +4012,25 @@ data "Icon" "PassiveFeature_BookOfAncientSecrets"
 data "PriorityOrder" "12002"
 data "Properties" "Highlighted;ForceShowInCC"
 
+new entry "__WIZARD__DIVINDER__"
+type "PassiveData"
+
+new entry "Portent"
+type "PassiveData"
+using "Portent"
+data "DisplayName" "hae8e8ce3g458fg9150gdb09g00c46fe3fe62;1"
+data "PriorityOrder" "12103"
+
+new entry "ExpertDivination"
+type "PassiveData"
+using "ExpertDivination"
+data "DisplayName" "h9570e7b5gd9ceg5a34g04aagac5235955484;1"
+data "ExtraDescription" "h15504b2agf3a9gc7f3g51e1g6775163e7006;1"
+data "PriorityOrder" "12106"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "IsSpellSchool(SpellSchool.Divination);"
+data "StatsFunctors" "IF(SpellPowerLevelEqualTo(6)):RestoreResource(SELF,SpellSlot,1,5);IF(SpellPowerLevelEqualTo(5)):RestoreResource(SELF,SpellSlot,1,4);IF(SpellPowerLevelEqualTo(4)):RestoreResource(SELF,SpellSlot,1,3);IF(SpellPowerLevelEqualTo(3)):RestoreResource(SELF,SpellSlot,1,2);IF(SpellPowerLevelEqualTo(2)):RestoreResource(SELF,SpellSlot,1,1);"
+
 new entry "__WIZARD__EVOKER__"
 type "PassiveData"
 

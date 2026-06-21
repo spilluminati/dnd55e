@@ -4607,4 +4607,9 @@ In addition, your highest spell slot level must be at least one level lower than
   <content contentuid="h06f01e3agcbd9g2520gaaf4g5e982034ef42" version="1">Choose a willing creature who can see or hear you and expend one Superiority Die. That creature can immediately use its Reaction to make one attack with a weapon, adding the Superiority Die to the attack’s damage roll on a hit.</content>
   <content contentuid="h1af1fe5bg50e6g268fgff66g9f945c926502" version="1">Commander's Strike Target</content>
   <content contentuid="h71081eb5g3790g2aa9g3de0g457518c610e4" version="1">Commander's Strike</content>
+  <content contentuid="h9570e7b5gd9ceg5a34g04aagac5235955484" version="1">Level 6: Expert Divination</content>
+  <content contentuid="h15504b2agf3a9gc7f3g51e1g6775163e7006" version="1">When you cast a Divination spell using a spell slot of 2nd level or higher, you regain one expended spell slot that is one level lower than the slot used to cast the spell. You can't regain spell slots higher than 5th level with this feature.</content>
+  <content contentuid="hae8e8ce3g458fg9150gdb09g00c46fe3fe62" version="1">Level 3: Portent</content>
+  <content contentuid="hd419a5dcg621bg5ccagb91bgf4b3862d5fde" version="1">Diviner</content>
+  <content contentuid="h082d1855ga658g2a35g05a7g0252200ad020" version="1">The counsel of a Diviner is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.</content>
 </contentList>
