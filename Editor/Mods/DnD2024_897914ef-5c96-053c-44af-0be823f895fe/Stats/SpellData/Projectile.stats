@@ -84,11 +84,9 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7ab9b9d8-fdbc-4912-8f03-a20fe555ca07" />
         <field name="Name" type="NameTableFieldDefinition" value="Jump_Down" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5fdafc2f-e844-41a5-98ea-aa23c39f959b" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5e9022a-1c7c-47df-b11f-7fe5fc3d86bb" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="YDistanceToTargetGreaterOrEqual(1.5);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7" version="4" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="Movement:3" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsJump;HasHighGroundRangeExtension;IgnoreVisionBlock;Stealth;Invisible;CannotTargetCharacter;CannotTargetItems;Temporary" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
