@@ -4662,4 +4662,6 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="hf91e618bg7cfcg3668g95bbg4b7e8eb659d9" version="2">Spellfire Storm: Spell Disruption</content>
   <content contentuid="h150cb7degdc6bg252agb2cag7b6c5033e87d" version="1">Whenever a creature in the Cylinder casts a spell, that creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted.</content>
   <content contentuid="h2d7fc4afgebcbg804ag8764g1902de76e587" version="1">Spellfire Storm: Radiant Damage</content>
+  <content contentuid="h5acbb969gf7e6g885egf07ag2ca3bb42d3a7" version="1">Frightful Start</content>
+  <content contentuid="h834e8d02gd8f9g2e05ge709gc3ecb8d0d3da" version="1">You twist your visage to scare a creature that you can see within range. The creature must succeed on a Wisdom saving throw or have the Frightened condition until the start of your next turn.</content>
 </contentList>

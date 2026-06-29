@@ -1613,6 +1613,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a29722a-390a-40d4-8d6e-adb80768a03a" />
+        <field name="Name" type="NameTableFieldDefinition" value="FRIGHTFUL_START" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="60a09934-feba-4335-b387-f1581fc07702" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d945035d-f263-424f-8cf8-ad28ee2948fe" />
         <field name="Name" type="NameTableFieldDefinition" value="COLOR_SPRAY" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bab92850-6297-435e-9399-d672bf496412" />
