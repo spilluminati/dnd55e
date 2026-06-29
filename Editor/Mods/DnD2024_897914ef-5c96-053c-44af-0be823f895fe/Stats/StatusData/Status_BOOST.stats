@@ -1004,6 +1004,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ea915d7-7e62-4644-a5d1-633e02b6c9be" />
+        <field name="Name" type="NameTableFieldDefinition" value="DARKBOLT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e313479g10bdg79f6gcd1eg8ea0fd340038" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64c3d662g403agbd6dgc831g665675b5f32a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Darkbolt" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DARKBOLT" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(ReactionActionPoint);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9608b4b5-e9d7-48bc-bcc3-840743af38ed" />
         <field name="Name" type="NameTableFieldDefinition" value="HOLYWORD" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a918193g01a1gcd83gf729g2e88e3223327" version="1" />

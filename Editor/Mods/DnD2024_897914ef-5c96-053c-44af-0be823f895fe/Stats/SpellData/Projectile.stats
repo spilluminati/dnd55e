@@ -1382,6 +1382,90 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee5e0a8b-c86e-4a4f-8a5b-438da61f6366" />
+        <field name="Name" type="NameTableFieldDefinition" value="Darkbolt" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse)" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10,Cold,Magical);IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(DARKBOLT,100,2);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self()" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="47ac1e9a-3b62-4010-bde9-0dc602edd114" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Darkbolt" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he2351ff1gc2fegeb0ag256cg5f2fee7ff699" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h50f91c1cgccffgefd8g17f1g12dfc280157d" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d10,Cold)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack;Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DARKBOLT,100,2);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Ice_RayOfFrost_L0" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;HasVerbalComponent;HasSomaticComponent;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cb1c210a-6674-4184-a61c-fcc172b3667e" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="f3d3763c-1cbb-4d7a-94da-d9f703b7d67a" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+        <field name="ProjectileDelay" type="IntegerTableFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b766a4f4-9f08-4a74-90bc-3926e9c7d454" />
+        <field name="Name" type="NameTableFieldDefinition" value="Darkbolt_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ee5e0a8b-c86e-4a4f-8a5b-438da61f6366" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_Darkbolt" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8e99443-d690-45ce-b868-91784cea61b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Darkbolt_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b766a4f4-9f08-4a74-90bc-3926e9c7d454" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d10,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="909f65b1-17d5-41a0-8756-2cbf6ee5c912" />
+        <field name="Name" type="NameTableFieldDefinition" value="Darkbolt_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b766a4f4-9f08-4a74-90bc-3926e9c7d454" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d10,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0653babb-3f65-40e8-a516-afa8a9bf5211" />
+        <field name="Name" type="NameTableFieldDefinition" value="Darkbolt_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b766a4f4-9f08-4a74-90bc-3926e9c7d454" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="7" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d10,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1fe57f34-716a-4deb-8a29-10e10757f4b2" />
         <field name="Name" type="NameTableFieldDefinition" value="AcidArrow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1c273ec5-643b-495a-8b44-bd044a4ceed6" />
