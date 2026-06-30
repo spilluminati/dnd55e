@@ -1270,7 +1270,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,1,5)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,1,0,,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DivineIntervention" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Cleric_10_DivineIntervention" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
