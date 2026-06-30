@@ -1667,6 +1667,21 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee377b40-b649-4e32-9229-a068e3832d87" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOAK_OF_SHADOW" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd072401cgab74ga74bgb28egccb3e4a6554d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23041527g684fg9b54gfd8bgbc94bca6aa62" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CloakOfShadow" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_BlessingOfTrickster_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_BlessingOfTrickster_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CLOAK_OF_SHADOW" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill, Stealth);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="d6422dfb-0caa-4354-8d63-26489afff4a0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d945035d-f263-424f-8cf8-ad28ee2948fe" />
         <field name="Name" type="NameTableFieldDefinition" value="COLOR_SPRAY" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bab92850-6297-435e-9399-d672bf496412" />
@@ -5693,6 +5708,15 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_COLORSPRAY" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_ColorSpray,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91284a77-1dba-4179-bb66-d5262206fa5d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_CLOAKOFSHADOW" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CLOAKOFSHADOW" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CloakOfShadow,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

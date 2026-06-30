@@ -751,6 +751,78 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04e04f85-432c-45a8-ba55-a3ad04def5fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloakOfShadow" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Illusion" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CLOAK_OF_SHADOW,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CloakOfShadow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9492c94g19bfg3230gbfc3g6cf10c6d02e5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8dbcd1e2ga506gd79fg540bgdeebf6743060" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOAK_OF_SHADOW,100,10)" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_OneWithShadows" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_OneWithShadows" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f489d217-b699-4e8e-bf22-6ef539c5d65b,,;,,;7a343ea7-1330-428a-b0b1-9f6dc7f2a91c,,;0f872585-3c6e-4493-a0b5-5acc882b7aaf,,;f9414915-2da7-4f40-bcbd-90e956461246,,;,,;f2a62277-c87a-4ec7-b4f2-c3c37e6e30ae,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Stealth;Invisible;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="323c90e0-e77b-4f43-9159-4026e5cbf94a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="655d9d60-070c-4f7d-ba2f-926c8c9d0778" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7161b030-8d0c-46d9-95da-749c4c5e4d0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloakOfShadow_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04e04f85-432c-45a8-ba55-a3ad04def5fa" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_CloakOfShadow" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b24ac00b-dd93-44c7-9ef5-10793ce3f0c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloakOfShadow_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7161b030-8d0c-46d9-95da-749c4c5e4d0b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a157e061-f0e7-4759-a647-38d2d6a648df" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloakOfShadow_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7161b030-8d0c-46d9-95da-749c4c5e4d0b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0445dd86-b1c6-4001-8026-e3ee5ed894b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloakOfShadow_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7161b030-8d0c-46d9-95da-749c4c5e4d0b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47524402-6d96-4a73-ac72-6c092a44805a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloakOfShadow_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7161b030-8d0c-46d9-95da-749c4c5e4d0b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2c98a39c-a044-41c5-adf6-22d816ba7b18" />
         <field name="Name" type="NameTableFieldDefinition" value="ShadowBlade_Class" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="73051268-f0b9-4cb4-bac0-f7aed9958e24" />
@@ -3945,7 +4017,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a31d6179-c93f-4153-9ac5-dcdba4879811" />
         <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Spell" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5fa7a877-3096-40a2-9d25-3f37c0fa4db6" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb_Acid;Projectile_ChromaticOrb_Cold;Projectile_ChromaticOrb_Fire;Projectile_ChromaticOrb_Lightning;Projectile_ChromaticOrb_Poison;Projectile_ChromaticOrb_Thunder;Zone_ColorSpray;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar_Cat;Target_FindFamiliar_Crab;Target_FindFamiliar_Frog;Target_FindFamiliar_Rat;Target_FindFamiliar_Raven;Target_FindFamiliar_Spider;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Dummy;Target_Sleep;Shield_Dummy;Target_HideousLaughter;Zone_Thunderwave;Projectile_Wardaway;Projectile_WitchBolt;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb_Acid;Projectile_ChromaticOrb_Cold;Projectile_ChromaticOrb_Fire;Projectile_ChromaticOrb_Lightning;Projectile_ChromaticOrb_Poison;Projectile_ChromaticOrb_Thunder;Shout_CloakOfShadow;Zone_ColorSpray;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar_Cat;Target_FindFamiliar_Crab;Target_FindFamiliar_Frog;Target_FindFamiliar_Rat;Target_FindFamiliar_Raven;Target_FindFamiliar_Spider;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Dummy;Target_Sleep;Shield_Dummy;Target_HideousLaughter;Zone_Thunderwave;Projectile_Wardaway;Projectile_WitchBolt;" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6335af1g4129g0308g8518g3cb980ec4a55" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hffa4fb6cg516eg4f17g0656geecaebcd5045" version="2" />
       </fields>

@@ -4684,4 +4684,8 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="he30340c8gee67gea26g42dfg7428ad2ffc24" version="1">Affected entity's &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.&lt;br&gt;&lt;br&gt;The entity can only take either an action or a bonus action.</content>
   <content contentuid="haac8d098g36f5gfad0g0c19g710686be3050" version="1">Aganazzar's Scorcher</content>
   <content contentuid="h05279eecg66b6g48b2gd7bbg31b8b9364190" version="1">A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes fire damage on a failed save, or half as much damage on a successful one.</content>
+  <content contentuid="hd072401cgab74ga74bgb28egccb3e4a6554d" version="1">Cloak of Shadow</content>
+  <content contentuid="h23041527g684fg9b54gfd8bgbc94bca6aa62" version="1">You cloak yourself in shadow, giving you advantage on Dexterity (Stealth) checks against creatures that rely on sight.</content>
+  <content contentuid="hc9492c94g19bfg3230gbfc3g6cf10c6d02e5" version="1">Cloak of Shadow</content>
+  <content contentuid="h8dbcd1e2ga506gd79fg540bgdeebf6743060" version="1">You cloak yourself in shadow, giving you advantage on Dexterity (Stealth) checks against creatures that rely on sight.</content>
 </contentList>
