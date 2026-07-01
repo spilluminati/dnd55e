@@ -25,6 +25,12 @@
 - Level 3: Path to the Grave
 - Level 6: Sentinel at Death’s Door
 ## Nature Domain
+## Shadow Domain
+- Level 3: Shadow Domain Spells
+- Level 3: Cover of Night
+- Level 3: Lengthen Shadow
+- Level 3: Shadow Grasp
+- Level 6: Fade to Black
 ## Tempest Domain
 ## Knowledge Domain
 - Level 3: Blessings of Knowledge

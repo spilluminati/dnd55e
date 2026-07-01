@@ -697,6 +697,34 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_SynapticStatic;Throw_Telekinesis" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2665e374-e018-4253-82ac-f1a65f38c405" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Shadow Domain SLevel 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Bane;Shout_FalseLife;Target_Blindness;Target_Darkness" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="11ab18fb-200c-4d01-914e-72d2f247e212" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Shadow Domain SLevel 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Blink;Zone_Fear;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1b49cea-4bc9-4f31-9e11-6dd12ff7863a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Shadow Domain SLevel 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_BlackTentacles;Target_Invisibility_Greater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2652f702-8bbc-4d6d-bbe7-72620dd9ad44" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Shadow Domain SLevel 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_ConeOfCold;Target_Dream;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a650b325-6d8d-46ae-a2a8-28009a511806" />

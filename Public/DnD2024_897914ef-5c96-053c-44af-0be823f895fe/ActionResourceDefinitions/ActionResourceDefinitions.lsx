@@ -577,6 +577,13 @@
                     <attribute id="UUID" type="guid" value="6e696104-66ef-427c-849f-85b60aff88e5"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ShieldMaster"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="c39fda10-0e11-4025-9e66-d53334cb033b"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__XANATHARS GUIDE TO EVERYTHING__"/>
                     <attribute id="UUID" type="guid" value="fd6f503f-0e70-448f-8694-fd43dfa81118"/>
                 </node>
@@ -674,11 +681,12 @@
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7eca827eg60a1g2e15ga615g5750ad9f5621" version="1"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="ShieldMaster"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="c39fda10-0e11-4025-9e66-d53334cb033b"/>
+                    <attribute id="Name" type="FixedString" value="FadeToBlack"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="b6f7d2e0-96fd-47c5-a876-38cd6550974a"/>
                 </node>
             </children>
         </node>
