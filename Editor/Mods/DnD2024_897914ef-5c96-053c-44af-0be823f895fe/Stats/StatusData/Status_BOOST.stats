@@ -2585,6 +2585,186 @@
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDA70D6" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="002eabf8-3cee-4cef-bcec-8ed446f89b1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SPIRITS__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ade792c7-f8d9-4f53-b8d1-c96accf0b8b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc94fe18bg4a60g7150g9266g8db53b913dac" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb5b80dd1g369bg905ag47a7g28e7465806d8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spirits_3_SpiritsFromBeyond" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SPIRITS_FROM_BEYOND" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ade792c7-f8d9-4f53-b8d1-c96accf0b8b0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b40a7b0g581fga77bg3d22g30944ffbaf78" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc7d9adccgd21cg6730g04c3g3a1c38c6c5a9" version="2" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d0f1312-e655-4101-9ad8-029375acdfb3" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf382e28aged60gce44g754cg188b504d016d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b47bba7gdab8g8410ga59dgef9c6100ab29" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="929f3cb2-9fae-4da7-8085-aa28cc2763f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6ea82181ga4bcg90c8g0b02gd8675e5b6aa4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he73898ceg2342gac1agce15gffad564f5c59" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b09e2fef-2935-428d-8a79-4276b6b33cf5" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39df96a1g0bb3g137cg23aeg512d3de172d2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d06d7d0g728fgd57ag44f5g66f05c613163" version="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebd02fa0-330c-4e67-9c2e-68b836697b03" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h00cf74a8g6e1bgfba1g86f5gbc8aca92fe8c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61deeb2fg018dgeadegdab2g65d4b9e1683a" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5d5d220-a2bd-4661-908e-1b966a86111e" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he2f5e421g3789g0097gdfe7gab3e93f549a1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2bd86b9fg5a4bg7828gd29cg98815c2ef7d3" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da2cda3c-ff62-4c4e-9b06-c0ce3d7ac693" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6458540ag501ag8624gecf2g2f8f24c77656" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53224a2ag2d24g306bg844dge14be06ef6b9" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d763047-01cd-45ad-b1d0-98fbd163b500" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8b0f281eg7854g1a32gf59fge016a5551f0b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb079ee5g1c25gbdc5gf618gc2aef3acfd28" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e85f9843-c8d9-486a-9423-9d1ca032be6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1b99642bgb883g462cg638fg192cfcf25647" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha71f769bge1a3g46dfg432fga8899602df6a" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4dabaf8e-d21c-416b-bf70-47c080d74dc9" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FROM_BEYOND_9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9329b80cg3c57g3510gedb5gde3327d9570b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h373150f8gf513g0146g7190ge9494becea23" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42383685-c347-4423-9ced-30f81e049590" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_AVENGER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7502ba87ga4a8g6ef1gd41dgad0795b74d7a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hef65c52fg7f7dgb2b3g1627g79d21c2f19bf" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Control" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SPIRITS_AVENGER" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SpiritsAvenger_Passive;" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1520b7da-ec25-4b63-87c2-f869e791d92f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_RENEGADE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2864a37g9128g6f44gcbf7gd841c7dd1ee3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfaa297fcgd10eg8d87g5895g1856bdac31ee" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MistyEscape" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SPIRITS_RENEGADE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Spirit_Renegade);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c236a7b-8b5f-4bc7-b4a3-f8ee2e316dfc" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_FORTUNE_TELLER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="had7c3cbeg7e83gce08g901aga518994d49f8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf74a863gaa87g31eag1f55g095c055c056c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SPIRITS_FORTUNE_TELLER" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackRoll);Advantage(AllSavingThrows);Advantage(AllAbilities);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c47fb645-0ff8-46fe-81e0-2d884f463ed3" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_WAYFARER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h575cf64dg1928g3ab1g38b2gac008a149822" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9186b28dg0766gc68bg29a8ga4ca99c2272e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Longstrider_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Longstrider_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SPIRITS_WAYFARER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,3,0);TemporaryHP(Cause.LevelMapValue(BardicInspiration)+Cause.ClassLevel(Bard));" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e14337a2-55b0-495a-8294-02f7de8d0209" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="218b8f4f-4186-41c5-8dca-f1824662142e" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRIT_COWARD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4f8f14ccgd5a6gc212g98ebg59206e3227ef" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc04acb85gbc27gf6ecga81eg712f62387e98" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Frightened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Feared" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SPIRIT_COWARD" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,50,0);MovementSpeedLimit(Walk);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Slow_ActionPoint;" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Frightened;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="77df3921-0178-43dd-a351-3784d5ac19a5" />

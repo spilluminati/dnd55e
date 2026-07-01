@@ -1145,6 +1145,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9e315a90g0705gb2c6g1a8eg13de362924de" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Skilled" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1187,6 +1188,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5715a4dge184g890agee7ag4f904fb90c6b" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2010" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateBard" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1324,6 +1326,64 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2506" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BlessingsOfMoonlight);ActionResource(SpellSlot,1,2);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDA70D6" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="970d361a-c4dc-437a-9e09-c3f177ec22d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SPIRITS__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62596a46-ea44-47d4-9313-a519b9fdc355" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spirits_3_Channeler" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ebd2503g6d9eg64e4g7876gf81e5169c3d1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf76903dg7bbdg5e64g7f90g970b37ad3960" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_Guidance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Guidance_Spirits);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78653d09-25ea-473a-9038-1b1617073c1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spirits_3_SpiritsFromBeyond" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf142ccaeg2d4cg6976g4ac2g7597d90fed0d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadba9481g03c7gb0e4g2fc9gf098670ca5a9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spirits_3_SpiritsFromBeyond" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ControlledChanneling);UnlockSpell(Target_UnleashingASpirit);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('BardicInspiration') and not ControlledChanneling();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,SPIRITS_FROM_BEYOND,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="18f0f56d-d46e-4fb4-b1e7-24dcfe4d96fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spirits_6_EmpoweredChanneling" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d81a250g3cfag76eeg8fe0ga9763c05b980" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2cf47fc4g37cfg4d26ga580g3908890371fb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SpiritGuardians" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,3);UnlockSpell(Shout_SpiritGuardians,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(IsSpell()):DamageBonus(1d6);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and IsSpell() and not IsCantrip();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d6)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b2811b2-2a2b-4e37-8c83-898e0979d03c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritsAvenger_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h85cb392fg0a2fg3859g7db8g8b0c9e7dfe2e" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,1d8,Force,Magical)" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">

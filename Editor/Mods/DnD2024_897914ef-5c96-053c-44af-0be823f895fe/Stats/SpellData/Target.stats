@@ -6156,6 +6156,367 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="70319a43-6342-4996-811d-dd50df8b3fa1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDA70D6" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8d6e6d5-b8c1-46f5-93c1-eeeffcf200b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SPIRITS__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2aec820f-b15a-4a5e-8cca-54d936f4f646" />
+        <field name="Name" type="NameTableFieldDefinition" value="Guidance_Spirits" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c64ba536-9a1a-4f17-b16e-94fd6c9b85cb" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86ac4829gb9e1g65b8gf4b3g9e412c0d7a5e" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56f28e90-460f-4305-ba19-60ee355dfa7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_UnleashingASpirit_Beloved;Target_UnleashingASpirit_Sharpshooter;Target_UnleashingASpirit_Avenger;Target_UnleashingASpirit_Renegade;Target_UnleashingASpirit_Fortune Teller;Target_UnleashingASpirit_Wayfarer;Target_UnleashingASpirit_Trickster;Target_UnleashingASpirit_Shade;Target_UnleashingASpirit_Arsonist;Target_UnleashingASpirit_Coward;" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spirits_3_UnleashingASpirit" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h23b11d5dg4140gd4e3g0710ge0e1bf4a740e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99fc91bfg4ca1g9784g96bege336a9f9cf88" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c732921-69fe-4b1a-a617-657b360e9b3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Beloved" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="56f28e90-460f-4305-ba19-60ee355dfa7c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(BardicInspiration)+CharismaModifier);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_0')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f175533g6214gdd3dg85abgf900f49f70ea" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h809e5f68g6c1fg087fg4ebbgd6a42f20a3f2" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(BardicInspiration)+CharismaModifier);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_HealingWord_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_HealingWord_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;2f893fad-98eb-47cf-a524-dd4efd42bc2a,,;ca3147a8-2cf6-45a8-ac9a-1ce0fc11305f,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7a73fa11-81e8-44bc-8653-a0d0ebbecf4b" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="70319a43-6342-4996-811d-dd50df8b3fa1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e915a310-13bf-4292-a488-674e147e7ba2" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Sharpshooter" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BardicInspiration)+CharismaModifier,Force,Magical);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_1')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d7ed16fgf4dag658eg9a3bg2d0403eee929" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha93da29dg5863g46a5gb636gdc16581b4520" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BardicInspiration)+CharismaModifier,Force);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_HellishRebukeTrigger_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="00d37401-b1a7-42eb-ad64-ca4954111a85" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="27ae62db-1606-4e42-9bc9-aeb09dcc4f64" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="5b143818-1f79-47e2-b5ad-a39e97ce83c1" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="73f914ff-726e-4e4a-a156-f1ac02b8753c" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6fbe7002-94b3-4875-8307-9a67b3f417d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Avenger" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_AVENGER,100,2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_2')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Control" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he8db4d75g3788gb865gfae8g1e29680df8a8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97319f1bgef21gc6f0g305bg9cc81c5b14c1" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_AVENGER,100,2);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_ShieldOfFaith_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_ShieldOfFaith_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;2f5d8e0b-35f3-416f-99e9-1cc9d942204e,,;f2ec369f-4a3b-451e-b954-2ab0a53d51d6,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="60ec0a2d-1b72-4fb2-9eaf-571638aca25d" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1c5d1c5b-d8ff-42b5-8586-99aeaf901192" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="b76f528c-3b42-4283-a10d-d0217baf3c7c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="379d3499-a5fd-4a73-94c5-2a8432613c78" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Renegade" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_RENEGADE,100,1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_3')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MistyEscape" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h038053e1gcfecgf7dbgde6fg58230daeb450" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b7ca201g1238g4bbdg17feg37877398fd9e" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_RENEGADE,100,1);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;2f5d8e0b-35f3-416f-99e9-1cc9d942204e,,;f2ec369f-4a3b-451e-b954-2ab0a53d51d6,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="71859b27-bdda-44c3-8c65-7f142a1a2f60" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba004ed9-c4b1-4065-8a9a-b6bcfddd67de" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Fortune Teller" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FORTUNE_TELLER,100,1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_4')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h77672afbg5619g3b1ag237eg9443a77c6090" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf34a9c9bga45bgc852g5af5g53f40d5fc0f3" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FORTUNE_TELLER,100,1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_Guidance_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_Guidance_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;8252328a-66dd-4dc0-bbe0-00eea3204922,,;982d842b-5d44-4ef6-ab33-14d5ae514a50,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;236087a5-5597-4ee7-ab06-75b01147f596,,;ee0b6a78-c6b6-4852-aecb-d7c474a37d68,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="78b419eb-8ada-47f4-904a-5f335971a331" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5d7a0ad1-ac47-4f03-8c36-cce8184e1df0" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="5eccabb5-4b4f-4d3a-87ed-69a2c27b7f18" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2e196cd-91bb-4619-9bc2-b9eaea18e2bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Wayfarer" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_WAYFARER,100,-1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_5')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9275efcdg5392ga44cg149cg1a62add6cf2a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3c143767g21a8g66bcg6a21gf96dcfb36b88" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_WAYFARER,100,-1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_Longstrider_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_Longstrider_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;94ad1609-9862-499a-8337-5e6a7d9487f9,,;8373f3da-2368-4a51-98b1-146ec3586660,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;499b7945-9eff-40a2-9911-73b8963108e4,,;1d3a29f0-9409-462e-81cd-3f24944f63ca,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bcd66fb0-b0bc-41d0-abba-ad443d63dd72" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="32d71967-b080-4ac9-a1cf-c2829839bd90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e8adcc8-9b6e-47b3-be6a-5e52900dfaa3" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Trickster" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_6')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC(),AdvantageOnCharmPerson())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration),Psychic);ApplyStatus(CHARMED,100,2);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration))/2,Psychic);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CharmPerson" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea1ddd9cg5190g336fgf671gcf66a2291763" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8bd54844g8c51g684dg0147ga45b20304d23" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CHARMED,100,2)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_CharmPerson_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_CharmPerson_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_CharmPerson" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and not Ally() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Psychic" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d7ff6074-0dee-46eb-84c2-fed6118b0cc3" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="238adc5b-64e5-474a-b5fa-c4c5d032a21b" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="5cd08691-b441-43e1-b9d7-14668e4affa5" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="ef76e96c-3b6e-41f1-8d62-7c8813ca7624" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="054bd884-f58f-4767-ab91-4c200892054e" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Shade" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_SHADE,100,1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_7')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Invisibility" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he46fe671gb7f8g016egffdfgebfe371c4328" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1558545egaf7dg1079g8177g9f6871b6f525" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_SHADE,100,1);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_Invisibility_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_Invisibility_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Invisibility" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;94ad1609-9862-499a-8337-5e6a7d9487f9,,;8373f3da-2368-4a51-98b1-146ec3586660,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInDialogs" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4f8e353e-c04e-45c3-880b-d10885fd091f" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="68b1219a-ccc2-4b29-bb42-b18996de3b4d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f8e03b7-3bbb-4e29-bdb2-89cd22325c18" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Arsonist" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_8')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration),Fire);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration))/2,Fire);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h61d2bdf7g6628g46ddg50d4gb76f3723bdac" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hec346c79gf7e0ga44egbc79gbe72af6c9ba3" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration)),Fire);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="961753f4-c345-4bc4-b408-1d5b87a5ab0c" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_HellishRebukeTrigger_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and not Ally() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="488a0639-98c3-4c5f-83d2-3fe055f8e310" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="f97febdd-7f77-4ca0-9a05-13e8bd5772e0" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f00e3f73-695e-4a23-b2fb-c7eb47eb462e" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashingASpirit_Coward" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UnleashingASpirit" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SELF,SPIRITS_FROM_BEYOND_0);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_1);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_2);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_3);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_4);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_5);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_6);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_7);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_8);RemoveStatus(SELF,SPIRITS_FROM_BEYOND_9);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SPIRITS_FROM_BEYOND_9')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SPIRIT_COWARD,100,1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="AoEConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6a2b168g2d98g1bf5g837cg2fceb2ab048d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h173fc315gc0d2g81edgd93dg3ddf2abd9626" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRIT_COWARD,100,1)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Psychic_DissonantWhispers_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Psychic_DissonantWhispers_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_DamagePsychicDiscordantMelody" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Psychic" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="752219e2-351d-46ea-9448-3a714b3d3acc" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bd2fc245-5645-452f-a2cd-d158b751bbe4" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="a0aee53a-d702-4901-9bb3-7cf08e214346" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab9d8adc-d8a3-4a3f-b8d0-5922c72058af" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spirit_Renegade" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MistyEscape" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbff33399g3821g55a5g1421g5be8f35d3981" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h496851c8g04fdg00a4g089dg29319b878d02" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Teleport" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8eb25539-7225-4ac8-bb2d-f16cbdea9ab8" />

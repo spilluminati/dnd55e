@@ -130,6 +130,22 @@
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_67" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2f1f3761-64fd-42b7-a5e1-f1c381f6be1a" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SpiritsCollege" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h717d6a55gf9a8g7d5eg5430gc31fbe95ad80" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6923d229ga101g2539g1a0fg9771146b44a4" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Bard" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_37" />

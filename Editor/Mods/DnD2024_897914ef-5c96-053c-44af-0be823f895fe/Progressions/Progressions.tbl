@@ -471,7 +471,7 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(7ea8f476-97a1-4256-8f10-afa76a845cce,1,1,BardSpells)" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="0da91e7c-7880-4cfa-819b-82eb6f41130f;a06241d2-c432-472c-8c7d-84228d530cfa;d21368ac-c776-465c-9dcf-6123dd52734f;338cd823-6cec-434c-91ea-083ad535833f;c4bd5252-d68a-4330-9431-5e8ab24c5f29;2b46330d-0ada-4eb5-a131-3d250a41ca6a" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="0da91e7c-7880-4cfa-819b-82eb6f41130f;a06241d2-c432-472c-8c7d-84228d530cfa;d21368ac-c776-465c-9dcf-6123dd52734f;338cd823-6cec-434c-91ea-083ad535833f;2f1f3761-64fd-42b7-a5e1-f1c381f6be1a;c4bd5252-d68a-4330-9431-5e8ab24c5f29;2b46330d-0ada-4eb5-a131-3d250a41ca6a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -558,7 +558,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,1,5)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(61f79a30-2cac-4a7a-b5fe-50c89d307dd6,1,0,BardCantrip,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BardicInspiration_d10" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BardicInspiration_d10;Bard_10_MagicalSecrets" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1117,6 +1117,95 @@
         <field name="UUID" type="IdTableFieldDefinition" value="90329a28-e7fe-4e10-b13a-de19bfc62717" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="6f0b7e21-2421-4aeb-b572-49d794693a90" />
         <field name="FSName" type="StringTableFieldDefinition" value="MoonCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_952" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f3d25e0d-7f0d-4701-8804-67c028f52ced" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SpiritsCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Spirits_3_Channeler;Spirits_3_SpiritsFromBeyond" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_953" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0e94dfb7-94ab-47ca-93fd-12d4d669c5c3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SpiritsCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Spirits_6_EmpoweredChanneling" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,1,0,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_954" />
+        <field name="UUID" type="IdTableFieldDefinition" value="981d3ab4-e100-4203-9b5d-522680bfd9d2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SpiritsCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_955" />
+        <field name="UUID" type="IdTableFieldDefinition" value="17cfd3cc-bc87-4c9a-9043-b48ef486e079" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SpiritsCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_956" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3e457311-fa8e-4454-b447-7808fc05e7d1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SpiritsCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_957" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d3e2060b-5904-4bb8-8f1b-d1fe0d0ce028" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SpiritsCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_958" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f6684dfb-7d3a-4f2b-8c1b-a06062d9ccdb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SpiritsCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_959" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0970439c-93e1-490c-b334-baa75ccb2008" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SpiritsCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />

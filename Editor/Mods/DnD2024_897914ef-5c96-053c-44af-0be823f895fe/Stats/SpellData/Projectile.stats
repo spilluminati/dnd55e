@@ -2266,6 +2266,27 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a05f666a-f575-442a-b83b-e61ad1242a82" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spirits_Shade" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 14)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8, Necrotic,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d8/2, Necrotic,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and Enemy()" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="2843a8e8-3204-46de-84a0-6556c1f72a9b,e283e585-168c-9641-a280-ea1bac2372b0" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Explosion" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value=",,;de0a782c-14ea-42b2-bdf6-93be5e9387f3,,;20e628a8-8043-453c-8fb0-7021c45e8250,,;,,;,,;1825ebcc-e266-4187-af35-29ff704a33dd,,;,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsTrap;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="40eb5305-8693-4367-8838-6a45b4740bf2" />

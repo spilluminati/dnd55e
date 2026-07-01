@@ -4719,4 +4719,92 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="h8dfac8b3gdd9aga779ga229g8159a97e610e" version="2">When you call upon your deity for Divine Intervention, your god answers by restoring a portion of your divine power. You immediately regain one 5th-level spell slot.</content>
   <content contentuid="hb220d543g0de9ga76cg8f82gc0f939ce0a89" version="1">Improved Warding Flare</content>
   <content contentuid="he222d284gfebfg2d88g1574g14e9d5ea7c35" version="1">Gain Temporary Hit Points equal to 2d6 + the Cleric's Wisdom modifier.</content>
+  <content contentuid="h717d6a55gf9a8g7d5eg5430gc31fbe95ad80" version="1">College of Spirits</content>
+  <content contentuid="h6923d229ga101g2539g1a0fg9771146b44a4" version="1">Bards of the College of Spirits conjure legendary spirits to change the world. But such entities are capricious, and what a Bard summons isn’t always entirely under their control.</content>
+  <content contentuid="h1ebd2503g6d9eg64e4g7876gf81e5169c3d1" version="1">Level 3: Channeler</content>
+  <content contentuid="haf76903dg7bbdg5e64g7f90g970b37ad3960" version="1">Guiding Whispers. You know the Guidance cantrip. It has a range of 60 feet when you cast it.</content>
+  <content contentuid="h86ac4829gb9e1g65b8gf4b3g9e412c0d7a5e" version="1">Guiding Whispers</content>
+  <content contentuid="hf142ccaeg2d4cg6976g4ac2g7597d90fed0d" version="1">Level 3: Spirits from Beyond</content>
+  <content contentuid="hadba9481g03c7gb0e4g2fc9gf098670ca5a9" version="2">You can call forth spirits of the dead to empower you and your allies. When you take a Bonus Action to give a creature a Bardic Inspiration die, you can call forth the powers of a random spirit. To determine the spirit you channel, roll the Bardic Inspiration die and refer to the Spirits from Beyond table. The spirit remains channeled until you unleash it or until you finish a Long Rest.
+
+Controlled Channeling. As a Bonus Action, you can expend a use of your Bardic Inspiration and channel a specific spirit. When you do so, choose the spirit from the Spirits from Beyond table rather than rolling. The chosen spirit’s corresponding number must be less than or equal to the highest number on your Bardic Inspiration die; for example, if your Bardic Inspiration die is a d8, you can choose to channel any spirit up to (and including) the Shade.
+
+Unleashing a Spirit. As a Magic action, you can unleash one of your channeled spirits. Choose one creature you can see within 30 feet of yourself as the spirit’s target. The spirit then takes effect; if a spirit’s effect requires a saving throw, the DC equals your Bard spell save DC. This action allows you to actually use the spirit.</content>
+  <content contentuid="hc94fe18bg4a60g7150g9266g8db53b913dac" version="1">Spirits From Beyond</content>
+  <content contentuid="h3b40a7b0g581fga77bg3d22g30944ffbaf78" version="1">Spirits From Beyond: Beloved</content>
+  <content contentuid="hf382e28aged60gce44g754cg188b504d016d" version="1">Spirits From Beyond: Sharpshooter</content>
+  <content contentuid="h6ea82181ga4bcg90c8g0b02gd8675e5b6aa4" version="1">Spirits From Beyond: Avenger</content>
+  <content contentuid="h39df96a1g0bb3g137cg23aeg512d3de172d2" version="1">Spirits From Beyond: Renegade</content>
+  <content contentuid="h00cf74a8g6e1bgfba1g86f5gbc8aca92fe8c" version="1">Spirits From Beyond: Fortune Teller</content>
+  <content contentuid="he2f5e421g3789g0097gdfe7gab3e93f549a1" version="1">Spirits From Beyond: Wayfarer</content>
+  <content contentuid="h6458540ag501ag8624gecf2g2f8f24c77656" version="1">Spirits From Beyond: Trickster</content>
+  <content contentuid="h8b0f281eg7854g1a32gf59fge016a5551f0b" version="1">Spirits From Beyond: Shade</content>
+  <content contentuid="h1b99642bgb883g462cg638fg192cfcf25647" version="1">Spirits From Beyond: Arsonist</content>
+  <content contentuid="h9329b80cg3c57g3510gedb5gde3327d9570b" version="1">Spirits From Beyond: Coward</content>
+  <content contentuid="hb5b80dd1g369bg905ag47a7g28e7465806d8" version="1">You can call forth spirits of the dead to empower you and your allies. When you take a Bonus Action to give a creature a Bardic Inspiration die, you can call forth the powers of a random spirit. To determine the spirit you channel, roll the Bardic Inspiration die and refer to the Spirits from Beyond table. The spirit remains channeled until you unleash it or until you finish a Long Rest.</content>
+  <content contentuid="hc7d9adccgd21cg6730g04c3g3a1c38c6c5a9" version="2">Beloved. The target regains Hit Points equal to a roll of your Bardic Inspiration die plus your Charisma modifier.</content>
+  <content contentuid="h5b47bba7gdab8g8410ga59dgef9c6100ab29" version="2">Sharpshooter. The target takes Force damage equal to a roll of your Bardic Inspiration die plus your Charisma modifier.</content>
+  <content contentuid="he73898ceg2342gac1agce15gffad564f5c59" version="2">Avenger. Until the end of your next turn, any creature that hits the target with a melee attack roll takes Force damage equal to a roll of your Bardic Inspiration die.</content>
+  <content contentuid="h7d06d7d0g728fgd57ag44f5g66f05c613163" version="3">Renegade. Until the end of its turn, the target can use its Reaction to teleport up to 30 feet to an unoccupied space it can see.</content>
+  <content contentuid="h61deeb2fg018dgeadegdab2g65d4b9e1683a" version="2">Fortune Teller. The target has Advantage on D20 Tests until the start of your next turn.</content>
+  <content contentuid="h2bd86b9fg5a4bg7828gd29cg98815c2ef7d3" version="2">Wayfarer. The target gains Temporary Hit Points equal to a roll of your Bardic Inspiration die plus your Bard level. While the target has these Temporary Hit Points, its Speed increases by 10 feet.</content>
+  <content contentuid="h53224a2ag2d24g306bg844dge14be06ef6b9" version="2">Trickster. The target makes a Wisdom saving throw. On a failed save, the target takes Psychic damage equal to two rolls of your Bardic Inspiration die and has the Charmed condition until the start of your next turn. On a successful save, the target takes half as much damage only.</content>
+  <content contentuid="hcb079ee5g1c25gbdc5gf618gc2aef3acfd28" version="2">Shade. The target has the Invisible condition until the end of its next turn or until the target makes an attack roll, deals damage, or casts a spell. When the invisibility ends, each creature in a 5-foot Emanation originating from the target must succeed on a Constitution saving throw or take Necrotic damage equal to two rolls of your Bardic Inspiration die.</content>
+  <content contentuid="ha71f769bge1a3g46dfg432fga8899602df6a" version="2">Arsonist. The target makes a Dexterity saving throw, taking Fire damage equal to four rolls of your Bardic Inspiration die on a failed save or half as much damage on a successful one.</content>
+  <content contentuid="h373150f8gf513g0146g7190ge9494becea23" version="2">Coward. The target and each creature of your choice in a 30-foot Emanation originating from the target must succeed on a Wisdom saving throw or have the Frightened condition until the start of your next turn. While a creature is Frightened, its Speed is halved (round down), and it can take either an action or a Bonus Action, not both.</content>
+  <content contentuid="hffce3b1cg9e68gb50cgbc7eg803cec074d21" version="1">Controlled Channeling</content>
+  <content contentuid="h945acb09g1397g1556g11b6g3c002e37946c" version="1">Controlled Channeling: Beloved</content>
+  <content contentuid="hd8ba8bf9gec5fgc971g6414g155bd042f134" version="1">Controlled Channeling: Sharpshooter</content>
+  <content contentuid="h98f45553g103ag5816g3970ga4819b6d6cb6" version="1">Controlled Channeling: Avenger</content>
+  <content contentuid="h39687befg6a05g7279gb83dg79a1db3002ce" version="1">Controlled Channeling: Renegade</content>
+  <content contentuid="h62bc4434g28bdg98c9gcbb8ga8015d78cb4e" version="1">Controlled Channeling: Fortune Teller</content>
+  <content contentuid="h29dfe375g8154gf8bcg453cgfa9a2614e7fb" version="1">Controlled Channeling: Wayfarer</content>
+  <content contentuid="h45a38cb9gec4fg8cfdge87eg66614158ce7d" version="1">Controlled Channeling: Trickster</content>
+  <content contentuid="he31164f3gc7eeg457ag9c53ge89b52235660" version="1">Controlled Channeling: Shade</content>
+  <content contentuid="hc2dbe1c0gf4a2g7ed0g532agdde0fc25cd5d" version="1">Controlled Channeling: Arsonist</content>
+  <content contentuid="hff226ec3g9b2dg45b2g19dfg56c02c4af940" version="1">Controlled Channeling: Coward</content>
+  <content contentuid="hd0b1b087g7e7fg7cf3gdc0fg4b7196bb961f" version="1">As a Bonus Action, you can expend a use of your Bardic Inspiration and channel a specific spirit. When you do so, choose the spirit from the Spirits from Beyond table rather than rolling. The chosen spirit’s corresponding number must be less than or equal to the highest number on your Bardic Inspiration die; for example, if your Bardic Inspiration die is a d8, you can choose to channel any spirit up to (and including) the Shade.</content>
+  <content contentuid="h23b11d5dg4140gd4e3g0710ge0e1bf4a740e" version="1">Unleashing a Spirit</content>
+  <content contentuid="h99fc91bfg4ca1g9784g96bege336a9f9cf88" version="1">As a Magic action, you can unleash one of your channeled spirits. Choose one creature you can see within 30 feet of yourself as the spirit’s target. The spirit then takes effect; if a spirit’s effect requires a saving throw, the DC equals your Bard spell save DC. This action allows you to actually use the spirit.</content>
+  <content contentuid="h809e5f68g6c1fg087fg4ebbgd6a42f20a3f2" version="1">The target regains Hit Points equal to a roll of your Bardic Inspiration die plus your Charisma modifier.</content>
+  <content contentuid="ha93da29dg5863g46a5gb636gdc16581b4520" version="1">The target takes Force damage equal to a roll of your Bardic Inspiration die plus your Charisma modifier.</content>
+  <content contentuid="h97319f1bgef21gc6f0g305bg9cc81c5b14c1" version="1">Until the end of your next turn, any creature that hits the target with a melee attack roll takes Force damage equal to a roll of your Bardic Inspiration die.</content>
+  <content contentuid="h6b7ca201g1238g4bbdg17feg37877398fd9e" version="2">Until the end of its turn, the target can use its Reaction to teleport up to 30 feet to an unoccupied space it can see.</content>
+  <content contentuid="hf34a9c9bga45bgc852g5af5g53f40d5fc0f3" version="1">The target has Advantage on D20 Tests until the start of your next turn.</content>
+  <content contentuid="h3c143767g21a8g66bcg6a21gf96dcfb36b88" version="1">The target gains Temporary Hit Points equal to a roll of your Bardic Inspiration die plus your Bard level. While the target has these Temporary Hit Points, its Speed increases by 10 feet.</content>
+  <content contentuid="h8bd54844g8c51g684dg0147ga45b20304d23" version="1">The target makes a Wisdom saving throw. On a failed save, the target takes Psychic damage equal to two rolls of your Bardic Inspiration die and has the Charmed condition until the start of your next turn. On a successful save, the target takes half as much damage only.</content>
+  <content contentuid="h1558545egaf7dg1079g8177g9f6871b6f525" version="1">The target has the Invisible condition until the end of its next turn or until the target makes an attack roll, deals damage, or casts a spell. When the invisibility ends, each creature in a 5-foot Emanation originating from the target must succeed on a Constitution saving throw or take Necrotic damage equal to two rolls of your Bardic Inspiration die.</content>
+  <content contentuid="hec346c79gf7e0ga44egbc79gbe72af6c9ba3" version="1">The target makes a Dexterity saving throw, taking Fire damage equal to four rolls of your Bardic Inspiration die on a failed save or half as much damage on a successful one.</content>
+  <content contentuid="h173fc315gc0d2g81edgd93dg3ddf2abd9626" version="1">The target and each creature of your choice in a 30-foot Emanation originating from the target must succeed on a Wisdom saving throw or have the Frightened condition until the start of your next turn. While a creature is Frightened, its Speed is halved (round down), and it can take either an action or a Bonus Action, not both.</content>
+  <content contentuid="h7f175533g6214gdd3dg85abgf900f49f70ea" version="1">Unleashing a Spirit: Beloved</content>
+  <content contentuid="h2d7ed16fgf4dag658eg9a3bg2d0403eee929" version="1">Unleashing a Spirit: Sharpshooter</content>
+  <content contentuid="he8db4d75g3788gb865gfae8g1e29680df8a8" version="1">Unleashing a Spirit: Avenger</content>
+  <content contentuid="h038053e1gcfecgf7dbgde6fg58230daeb450" version="1">Unleashing a Spirit: Renegade</content>
+  <content contentuid="h77672afbg5619g3b1ag237eg9443a77c6090" version="1">Unleashing a Spirit: Fortune Teller</content>
+  <content contentuid="h9275efcdg5392ga44cg149cg1a62add6cf2a" version="1">Unleashing a Spirit: Wayfarer</content>
+  <content contentuid="hea1ddd9cg5190g336fgf671gcf66a2291763" version="1">Unleashing a Spirit: Trickster</content>
+  <content contentuid="he46fe671gb7f8g016egffdfgebfe371c4328" version="1">Unleashing a Spirit: Shade</content>
+  <content contentuid="h61d2bdf7g6628g46ddg50d4gb76f3723bdac" version="1">Unleashing a Spirit: Arsonist</content>
+  <content contentuid="hf6a2b168g2d98g1bf5g837cg2fceb2ab048d" version="1">Unleashing a Spirit: Coward</content>
+  <content contentuid="h6d81a250g3cfag76eeg8fe0ga9763c05b980" version="1">Level 6: Empowered Channeling</content>
+  <content contentuid="h2cf47fc4g37cfg4d26ga580g3908890371fb" version="1">Your ability to channel spirits improves. You gain the following benefits.
+
+Power from Beyond. Once per turn, when you cast a Bard spell with a spell slot that deals damage or restores Hit Points, roll 1d6. Add the number rolled to one of the spell's damage rolls or to the total Hit Points it restores.
+
+Spiritual Manifestation. You always have the Spirit Guardians spell prepared. In addition, you gain one 3rd-level spell slot that can be used only to cast Spirit Guardians. You regain this spell slot when you finish a Long Rest.</content>
+  <content contentuid="h7502ba87ga4a8g6ef1gd41dgad0795b74d7a" version="1">Avenger</content>
+  <content contentuid="hef65c52fg7f7dgb2b3g1627g79d21c2f19bf" version="1">Any creature that hits the target with a melee attack roll takes Force damage</content>
+  <content contentuid="h85cb392fg0a2fg3859g7db8g8b0c9e7dfe2e" version="1">Avenger</content>
+  <content contentuid="ha2864a37g9128g6f44gcbf7gd841c7dd1ee3" version="1">Renegade</content>
+  <content contentuid="hfaa297fcgd10eg8d87g5895g1856bdac31ee" version="1">Until the end of its turn, the target can use its Reaction to teleport up to 30 feet to an unoccupied space it can see.</content>
+  <content contentuid="hbff33399g3821g55a5g1421g5be8f35d3981" version="1">Renegade</content>
+  <content contentuid="h496851c8g04fdg00a4g089dg29319b878d02" version="1">Teleport up to 30 feet to an unoccupied space it can see.</content>
+  <content contentuid="had7c3cbeg7e83gce08g901aga518994d49f8" version="1">Fortune Teller</content>
+  <content contentuid="haf74a863gaa87g31eag1f55g095c055c056c" version="1">Has Advantage on D20 Tests.</content>
+  <content contentuid="h575cf64dg1928g3ab1g38b2gac008a149822" version="1">Wayfarer</content>
+  <content contentuid="h9186b28dg0766gc68bg29a8ga4ca99c2272e" version="1">Gains Temporary Hit Points. While it has these Temporary Hit Points, its Speed increases by 10 feet.</content>
+  <content contentuid="h35ce1531gbf74g63ebgb93dge033e33d1130" version="1">Shade</content>
+  <content contentuid="hf545430ag2493gc858g08d3g0bef38197077" version="1">Has the Invisible condition. When the invisibility ends, each creature in a 5-foot Emanation originating from the character must succeed on a Constitution saving throw or take Necrotic damage equal to two rolls of your Bardic Inspiration die.</content>
+  <content contentuid="h4f8f14ccgd5a6gc212g98ebg59206e3227ef" version="1">Coward</content>
+  <content contentuid="hc04acb85gbc27gf6ecga81eg712f62387e98" version="1">Speed is halved (round down), and it can take either an action or a Bonus Action, not both.</content>
 </contentList>

@@ -1671,6 +1671,151 @@
         <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDA70D6" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2794cb01-c82d-4148-bd40-84a369837b6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SPIRITS__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2751efe9-20c7-4311-84ba-4ca521c2972d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ControlledChanneling_Beloved;Shout_ControlledChanneling_Sharpshooter;Shout_ControlledChanneling_Avenger;Shout_ControlledChanneling_Renegade;Shout_ControlledChanneling_FortuneTeller;Shout_ControlledChanneling_Wayfarer;Shout_ControlledChanneling_Trickster;Shout_ControlledChanneling_Shade;Shout_ControlledChanneling_Arsonist;Shout_ControlledChanneling_Coward;" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spirits_3_SpiritsFromBeyond" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hffce3b1cg9e68gb50cgbc7eg803cec074d21" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd0b1b087g7e7fg7cf3gdc0fg4b7196bb961f" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_PactOfTheBlade" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;BardicInspiration:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f489d217-b699-4e8e-bf22-6ef539c5d65b,,;,,;7a343ea7-1330-428a-b0b1-9f6dc7f2a91c,,;0f872585-3c6e-4493-a0b5-5acc882b7aaf,,;f9414915-2da7-4f40-bcbd-90e956461246,,;,,;f2a62277-c87a-4ec7-b4f2-c3c37e6e30ae,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Action" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d2c9dc70-d8d8-40fc-87a8-3c14a3ea842a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5e248293-1a8d-4557-a2e1-f399e4552ff0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_Beloved" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2751efe9-20c7-4311-84ba-4ca521c2972d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ControlledChanneling" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_0,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h945acb09g1397g1556g11b6g3c002e37946c" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_0,100,-1);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="050a36bf-c734-4413-9458-f8b15316892b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_Sharpshooter" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_1,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd8ba8bf9gec5fgc971g6414g155bd042f134" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_1,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30cce3ba-dda1-4d89-b1c6-70d16a467992" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_Avenger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_2,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Control" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h98f45553g103ag5816g3970ga4819b6d6cb6" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_2,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac155434-b513-4816-a9cb-b93ba09c4c36" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_Renegade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_3,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MistyEscape" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39687befg6a05g7279gb83dg79a1db3002ce" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_3,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0120ca50-3c90-4acc-a4da-9396a0cb7c0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_FortuneTeller" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_4,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h62bc4434g28bdg98c9gcbb8ga8015d78cb4e" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_4,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ca3e931-ea20-4541-b4c4-6685b0f3d754" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_Wayfarer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_5,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h29dfe375g8154gf8bcg453cgfa9a2614e7fb" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_5,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4b975c8-48c8-418c-aee5-1e94a51789df" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_Trickster" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_6,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CharmPerson" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45a38cb9gec4fg8cfdge87eg66614158ce7d" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_6,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(5,'Bard',context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5172c5f-eff4-4d3f-bc0e-eac7b70e85e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_Shade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_7,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Invisibility" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he31164f3gc7eeg457ag9c53ge89b52235660" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_7,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(5,'Bard',context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="79ed5668-5ec0-4aa5-be5a-0f04f0c28cd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_Arsonist" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_8,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc2dbe1c0gf4a2g7ed0g532agdde0fc25cd5d" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_8,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(10,'Bard',context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa83d5f1-a197-4e53-9378-c38238978d62" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChanneling_Coward" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4abb46d1-34c0-4589-a4ae-8e42de25c2ce" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_9,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff226ec3g9b2dg45b2g19dfg56c02c4af940" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_FROM_BEYOND_9,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(10,'Bard',context.Source);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="353cfeae-ddd9-407f-8811-3324e14ffa3f" />

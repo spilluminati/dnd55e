@@ -34,5 +34,24 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="150d3ef4-bf3d-4efe-8f51-992589a5abc5" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_SHADE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h35ce1531gbf74g63ebgb93dge033e33d1130" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf545430ag2493gc858g08d3g0bef38197077" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Invisibility" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INVISIBILITY" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange; Invisibility(); Advantage(AttackRoll); DetectDisturbancesBlock(true);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInActiveRoll;ExcludeFromPortraitRendering" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished" enumeration_type_name="StatusEvent" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="CreateExplosion(Projectile_Spirits_Shade)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Invisible;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="84be28b3-6fdf-4b62-86e2-1f3b333aab81" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

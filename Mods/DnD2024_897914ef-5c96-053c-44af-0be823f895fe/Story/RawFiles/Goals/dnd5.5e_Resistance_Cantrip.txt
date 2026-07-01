@@ -6,7 +6,7 @@ KBSECTION
 IF
 StatusApplied(_Character, "RESISTANCE_OSIRIS", _, _)
 AND
-Random(3, _Random)
+Random(4, _Random)
 AND
 IntegerToString(_Random,_NumberString)
 AND
