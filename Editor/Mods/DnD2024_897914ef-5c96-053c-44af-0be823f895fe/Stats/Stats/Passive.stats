@@ -1983,7 +1983,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_3_PsychicFeedback" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and (IsDamageTypeRadiant() or IsDamageTypePsychic()):DamageBonus(CharismaModifier,Psychic);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and (IsDamageTypeRadiant() or IsDamageTypePsychic())):DamageBonus(CharismaModifier,Psychic);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4453,6 +4453,115 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9610" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_HorseLord);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fac0a9f3-6717-43ca-80e3-e174a5ff4b1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BLADE OF RADIANCE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f56676c5-bfa4-4fd2-9b34-921a0ff22b53" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeOfRadiance_3_SanctifiedChampion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h964e4272gf52dgfcbcgc84eg674db33423b6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1449cbcfg1e78g7153g5e0dg53362829c1a3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9603" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MartialWeapons);Proficiency(MediumArmor);UnlockSpell(Shout_SanctifiedChampion);IgnoreResistance(Radiant,Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f79a4c3d-2886-454e-a5c1-d2c8475b237d" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeOfRadiance_3_DivineBlessings" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a334947g9694gb548gb4e4g4bfde199cc8d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0f7b9f58g4722gc431g724fgbbd26f346b33" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineIntervention_Attack" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9603" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DivinePoint,2,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(DivinePoint,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(DivinePoint,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(DivinePoint,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(DivinePoint,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(DivinePoint,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(DivinePoint,1,0);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHPLessThan(1) and Enemy() and Character() and (Tagged('ABERRATION', context.Target) or Tagged('FIEND', context.Target) or Tagged('BEAST', context.Target) or Tagged('UNDEAD', context.Target));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SELF,DivinePoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc7864eb-b8c1-4701-aa0c-42ee9e4bcc5f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeOfRadiance_3_ArmorOfTheFaithful" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h61182600gdefdg90cdg3670gd4d17060e741" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h87a8aa38gfa6eg9164g4acbgf38e8e39787f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MageArmor" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9603" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ArmorOfTheFaithful);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec6931e2-50d5-4bd1-b57e-0e34993dd3e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeOfRadiance_3_DivineInspiration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4786c94egf555g6fe0g55b0g55cb3a928893" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5d3f13dbgaaafgc317g4fb1ga68568021092" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_Guidance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9603" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(History,WisdomModifier);Skill(Insight,WisdomModifier);Skill(Religion,WisdomModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4316ce55-fa88-4c3f-b453-4f60935fafc3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeOfRadiance_3_RendTheBlasphemous" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h797675dag18a1ge22agbb1bgb5b01c18fd4d" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b6f609dg9e15g8c7cg33f8gbe509d75e00e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9603" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(SpellId('Target_RendTheBlasphemous')):RollBonus(Attack,WisdomModifier);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SanctifiedChampion(context.Target) and HasUseCosts('ActionPoint', true);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,REND_THE_BLASPHEMOUS, 100, 1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8273374e-82e4-439c-a25d-aef6ee8765fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeOfRadiance_9_ChainsOfJudgement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h36a07310gf671gd6d5g26c3ge6250fa1718d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05726c6egfdc1g7e6fgb135gb031d3bba7f8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="BladeOfRadiance_9_ChainsOfJudgement" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9606" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ChainsOfJudgement);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5131ee6a-1fdc-4d8b-9609-9bd0af789a2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeOfRadiance_9_DivineRetaliation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda7d8a17g6668ga3a6g1781g963016c95096" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb1f27e8cg3c25g45d2gfff0gf52a143b7438" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="BladeOfRadiance_9_DivineRetaliation" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9606" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_DivineRetaliation);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eac6931f-b6cf-45c6-b9b5-7379386160fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="BladeOfRadiance_9_EruptingBlades" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4991ec40g26c7gc891g8995g3c46491be240" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hda73ee14g5c7dg9f17g063dg92a87621426e" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="BladeOfRadiance_9_EruptingBlades" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9606" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_EruptingBlades);" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">

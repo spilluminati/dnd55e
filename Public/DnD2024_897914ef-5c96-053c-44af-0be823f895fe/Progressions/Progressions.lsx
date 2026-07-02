@@ -4149,6 +4149,9 @@
                                     <attribute id="Object" type="guid" value="b53a8061-f31d-4985-adfe-d4d691a918d9"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="94def2b4-eabb-4da2-baae-6dc366e87d82"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="eeb1f97b-7cc4-4720-b2a8-bf8cbb4dc76e"/>
                                 </node>
                                 <node id="SubClass">
@@ -4471,6 +4474,22 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="8e20bc2e-8a65-472d-8e14-66d91edfcdd3"/>
                     <attribute id="UUID" type="guid" value="a5e66f96-2387-44f5-825f-046ea5197f46"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="BladeOfRadiance"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BladeOfRadiance_3_SanctifiedChampion;BladeOfRadiance_3_DivineBlessings;BladeOfRadiance_3_ArmorOfTheFaithful;BladeOfRadiance_3_DivineInspiration;BladeOfRadiance_3_RendTheBlasphemous"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="e77b882d-60d9-4f2e-81bb-03f795327312"/>
+                    <attribute id="UUID" type="guid" value="a5d70130-9599-4a8e-91ea-6eec92c20fbf"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="BladeOfRadiance"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BladeOfRadiance_9_ChainsOfJudgement;BladeOfRadiance_9_DivineRetaliation;BladeOfRadiance_9_EruptingBlades"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="e77b882d-60d9-4f2e-81bb-03f795327312"/>
+                    <attribute id="UUID" type="guid" value="f319615c-9762-4429-908b-c22de1db80c8"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice06,1,0);ActionResource(InnateSorcery,2,0);Proficiency(SimpleWeapons);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma)"/>

@@ -4000,6 +4000,46 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Rogue)*2);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7dc4446-9f1c-42ca-aca6-62027467fde2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BLADE OF RADIANCE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96ad0fdd-e684-45c9-b34f-5d861d8b7fc0" />
+        <field name="Name" type="NameTableFieldDefinition" value="SANCTIFIED_CHAMPION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h690e847bge185g8948g88e3g81fa0004b7a4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h76a22005g0fd5g7e8bgedc0g71ee16b02cd7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SANCTIFIED_CHAMPION" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponDamageTypeOverride(Radiant);WeaponProperty(Finesse);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f2204a1d-a79b-4efe-a3da-3ed69392b94a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1611641-6c0c-4cbf-a271-8d930ca3f1a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="REND_THE_BLASPHEMOUS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7aef76d5g0c5egb8cfg0085g9e626ecff011" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h12a804eegfe14gb540gf10eg7e12569c4945" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="StackId" type="StringTableFieldDefinition" value="REND_THE_BLASPHEMOUS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RendTheBlasphemous);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50f13d30-46c7-4cb7-84fd-93de94ef3be8" />
+        <field name="Name" type="NameTableFieldDefinition" value="CHAINS_OF_JUDGEMENT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ebec1f1-ed98-40f8-a0b3-f5757f7c7f7f" />
+        <field name="Icon" type="StringTableFieldDefinition" value="BladeOfRadiance_9_ChainsOfJudgement" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5b751f3e-87d4-4163-b666-37c11c5d67a7" />
@@ -5246,7 +5286,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="EC_PROTECTOR" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a989f61f-c98c-4cfc-b7d7-9871fd7a5876" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h702ee012gf2cegac5agc807g4f790f5c4902" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(Cause.LevelMapValue(EldritchCannonProtector);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(Cause.LevelMapValue(EldritchCannonProtector)+Cause.IntelligenceModifier)" />
         <field name="StackId" type="StringTableFieldDefinition" value="EC_PROTECTOR" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(EldritchCannonProtector)+Cause.IntelligenceModifier);" />
       </fields>

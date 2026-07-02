@@ -4807,4 +4807,45 @@ Spiritual Manifestation. You always have the Spirit Guardians spell prepared. In
   <content contentuid="hf545430ag2493gc858g08d3g0bef38197077" version="1">Has the Invisible condition. When the invisibility ends, each creature in a 5-foot Emanation originating from the character must succeed on a Constitution saving throw or take Necrotic damage equal to two rolls of your Bardic Inspiration die.</content>
   <content contentuid="h4f8f14ccgd5a6gc212g98ebg59206e3227ef" version="1">Coward</content>
   <content contentuid="hc04acb85gbc27gf6ecga81eg712f62387e98" version="1">Speed is halved (round down), and it can take either an action or a Bonus Action, not both.</content>
+  <content contentuid="h48078124g7f94gbb02g1bbeg8729dfed349b" version="1">Blade of Radiance</content>
+  <content contentuid="hb5daba8dgda0agdf43g3675gc6035aefebbd" version="1">The Blades of Radiance, also known as Steel Saints, are among the most lethal orders of the Church. To become a blade, one must be a devout follower of the faith, for only those willing to die for the cause are deemed worthy. Prospective members are trained within the Church’s walls, taking the clergy as their new kin and discarding whatever familial bonds they once held. Their zealous fervor grants them unrivaled power on the battlefield, wielding massive weapons as if they were toys, infusing their blades with divine energy, and breaking their foes one by one.
+
+The Blades of Radiance undertake an incredibly diverse range of missions. The most brutal members handle gruesome matters with lethal precision, while those of a more empathetic temperament protect their fellows. Despite their differences, all share a single goal: safeguarding the Church and its members, no matter the cost.</content>
+  <content contentuid="h964e4272gf52dgfcbcgc84eg674db33423b6" version="1">Level 3: Sanctified Champion</content>
+  <content contentuid="h1449cbcfg1e78g7153g5e0dg53362829c1a3" version="1">Your intense training bears fruit. You gain proficiency with martial weapons and training with medium armor.
+
+Whenever you finish a Short Rest, you can perform a ritual on a melee weapon you are proficient with that deals Piercing or Slashing damage, sanctifying it. It becomes your sanctified blade, and you can only have one such blade at a time. The blade gains the Finesse property for you, and attacks made with it against Aberrations, Fiends, and Undead ignore Resistance to damage.</content>
+  <content contentuid="hd4c5ce4dgcb1bg633fg9549gc049d53401cf" version="1">Sanctified Blade</content>
+  <content contentuid="hb8fdcfc4ga498g2b1cg07dfg1712e7560d44" version="1">Whenever you finish a Short Rest, you can perform a ritual on a melee weapon you are proficient with that deals Piercing or Slashing damage, sanctifying it. It becomes your sanctified blade, and you can only have one such blade at a time. The blade gains the Finesse property for you, and attacks made with it against Aberrations, Fiends, and Undead ignore Resistance to damage.</content>
+  <content contentuid="h690e847bge185g8948g88e3g81fa0004b7a4" version="1">Sanctified blade</content>
+  <content contentuid="h76a22005g0fd5g7e8bgedc0g71ee16b02cd7" version="1">The blade gains the Finesse property for you, and attacks made with it against Aberrations, Fiends, and Undead ignore Resistance to damage.</content>
+  <content contentuid="h7a334947g9694gb548gb4e4g4bfde199cc8d" version="1">Level 3: Divine Blessings</content>
+  <content contentuid="h0f7b9f58g4722gc431g724fgbbd26f346b33" version="1">Your devotion manifests as righteous power. You have a pool of Divine Points equal to 1 plus your Wisdom modifier (minimum of 1). You regain all expended Divine Points when you finish a Short or Long Rest.
+
+In addition, whenever you kill an Aberration, Beast, Fiend, or Undead of CR 1/2 or higher with your sanctified blade, you regain 1 expended Divine Point.</content>
+  <content contentuid="h61182600gdefdg90cdg3670gd4d17060e741" version="2">Level 3: Armor of the Faithful</content>
+  <content contentuid="h87a8aa38gfa6eg9164g4acbgf38e8e39787f" version="1">As a Reaction when a creature targets you with an attack, you can expend 1 Divine Point to force it to make a Wisdom saving throw. On a failed save, the attacker must choose a new target or the attack has no effect, and it can’t target you again until the start of your next turn. This feature does not protect you from areas of effect.</content>
+  <content contentuid="h4786c94egf555g6fe0g55b0g55cb3a928893" version="2">Level 3: Divine Inspiration</content>
+  <content contentuid="h5d3f13dbgaaafgc317g4fb1ga68568021092" version="1">When you make an Intelligence (History or Religion) or Wisdom (Insight) check, you gain a bonus to the roll equal to your Wisdom modifier.</content>
+  <content contentuid="h797675dag18a1ge22agbb1bgb5b01c18fd4d" version="2">Level 3: Rend the Blasphemous</content>
+  <content contentuid="h5b6f609dg9e15g8c7cg33f8gbe509d75e00e" version="1">After you take the Attack action with your sanctified blade, you can take a Bonus Action and expend 1 Divine Point to make an additional attack with it, gaining a bonus to the attack roll equal to your Wisdom modifier (minimum 1).</content>
+  <content contentuid="h7aef76d5g0c5egb8cfg0085g9e626ecff011" version="1">Rend the Blasphemous</content>
+  <content contentuid="h12a804eegfe14gb540gf10eg7e12569c4945" version="1">You can take a Bonus Action and expend 1 Divine Point to make an additional attack with it, gaining a bonus to the attack roll equal to your Wisdom modifier (minimum 1).</content>
+  <content contentuid="he6e0389bg4b53gc6f7gd3fdg822f50ed705b" version="1">Armor of the Faithful</content>
+  <content contentuid="h93f49c42g8f4fg3ae3g035dg2463963e3dd9" version="1">As a Reaction when a creature targets you with an attack, you can expend 1 Divine Point to force it to make a Wisdom saving throw. On a failed save, the attacker must choose a new target or the attack has no effect, and it can’t target you again until the start of your next turn. This feature does not protect you from areas of effect.</content>
+  <content contentuid="h6f23bbc7ga5a4gcc3dgd44eg45b750c2f618" version="1">Armor of the Faithful</content>
+  <content contentuid="hd8d03d73gad13g0cd8g4a62g3287c6ec2cad" version="1">Rend the Blasphemous</content>
+  <content contentuid="he42b6d25ga54ag95feg90bbge79fe3812ac0" version="1">Divine Point</content>
+  <content contentuid="h36a07310gf671gd6d5g26c3ge6250fa1718d" version="1">Level 9: Chains of Judgement</content>
+  <content contentuid="h05726c6egfdc1g7e6fgb135gb031d3bba7f8" version="1">When you hit a creature with your sanctified blade, you can expend 1 Divine Point to bind it in holy chains. The target must succeed on a Strength saving throw or take Radiant damage equal to your Wisdom modifier and gain the Restrained condition until the end of your next turn.</content>
+  <content contentuid="hda7d8a17g6668ga3a6g1781g963016c95096" version="1">Level 9: Divine Retaliation</content>
+  <content contentuid="hb1f27e8cg3c25g45d2gfff0gf52a143b7438" version="1">As a Reaction when a creature damages you with a melee attack, you can expend 1 Divine Point to make a melee attack against it. You gain a bonus to the damage roll equal to your Wisdom modifier.</content>
+  <content contentuid="h4991ec40g26c7gc891g8995g3c46491be240" version="1">Level 9: Erupting Blades</content>
+  <content contentuid="hda73ee14g5c7dg9f17g063dg92a87621426e" version="2">You can expend 2 Divine Points to call down radiant blades in a 45-foot-long, 5-foot-wide Line. Each creature in the Line must make a Dexterity saving throw, taking Radiant damage equal to your Sneak Attack damage on a failed save, or half as much damage on a successful one.</content>
+  <content contentuid="h53541f0cg04a1g112bge21dg808b86467f1d" version="1">Chains of Judgement</content>
+  <content contentuid="hb5aeae53g0a47g6c52g8ed3gf1c8722ca565" version="1">When you hit a creature with your sanctified blade, you can expend 1 Divine Point to bind it in holy chains. The target must succeed on a Strength saving throw or take Radiant damage equal to your Wisdom modifier and gain the Restrained condition until the end of your next turn.</content>
+  <content contentuid="haab525c5g6408g1302gb797gcc6ec923a940" version="1">Divine Retaliation</content>
+  <content contentuid="hdb2b4b09g8d02ge0d3g8eeagd0b7b294e1c2" version="1">As a Reaction when a creature damages you with a melee attack, you can expend 1 Divine Point to make a melee attack against it. You gain a bonus to the damage roll equal to your Wisdom modifier.</content>
+  <content contentuid="ha43fceeeg4ad3g069bgbbf5g78b41ca67687" version="1">Erupting Blades</content>
+  <content contentuid="h6a7e8dbfg5edcgcfebgef9bgb58dbe804543" version="1">You can expend 2 Divine Points to call down radiant blades in a 45-foot-long, 5-foot-wide Line. Each creature in the Line must make a Dexterity saving throw, taking Radiant damage equal to your Sneak Attack damage on a failed save, or half as much damage on a successful one.</content>
 </contentList>
