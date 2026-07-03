@@ -2031,6 +2031,17 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="cee5da66-470d-4266-9c2f-33beb6ff3b3f" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a07a3a9-ff57-4f3b-8ab2-286a6b5f632e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MURMURS_OF_DOOM" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h49cf69a9g3850ga86fg9854g543c73e1e561" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea3f9087gcfa4gad7eg1453gcafb3a204579" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_MurmursOfDoom" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MURMURS_OF_DOOM" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MurmursOfDoom_Recast);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="004d83f8-8a7a-42ed-be19-8e0531a62aa6" />

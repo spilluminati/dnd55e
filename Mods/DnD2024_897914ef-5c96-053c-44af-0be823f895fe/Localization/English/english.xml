@@ -4892,4 +4892,8 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="hfa2950d9g0184g255ag6ff3gfe24dbf54ebc" version="1">Void Strike</content>
   <content contentuid="h69e1f672gc48fg3f52g323bg3be6611e1538" version="1">Murder of Crows </content>
   <content contentuid="ha5f5579fg9ce6ge4abg474ag9e80c16acfae" version="1">You summon and unleash a murder of deadly crows. Each creature of your choice in a 30-foot Cone originating from you makes a Dexterity saving throw. On a failed save, the target takes 5d6 Force damage and has the Blinded condition. On a successful save, it takes half as much damage only. A Blinded creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</content>
+  <content contentuid="h9652267bgde21g4799ga95ag6f6fadec6806" version="1">Murmurs of Doom</content>
+  <content contentuid="h5ed5413eg93c7gb24cg21d8g7901b49c4c83" version="1">You begin a whispered dirge that is magically accompanied by the howling of spirits and other grim portents. For the duration, an aura radiates from you in a 30-foot Emanation. When you create the aura and at the start of each of your turns while it persists, you can choose one creature in it to make a Constitution saving throw. On a failure, the creature takes 3d8 Necrotic damage.</content>
+  <content contentuid="h49cf69a9g3850ga86fg9854g543c73e1e561" version="1">Murmurs of Doom</content>
+  <content contentuid="hea3f9087gcfa4gad7eg1453gcafb3a204579" version="1">For the duration, you can choose one creature in it to make a Constitution saving throw. On a failure, the creature takes 3d8 Necrotic damage.</content>
 </contentList>
