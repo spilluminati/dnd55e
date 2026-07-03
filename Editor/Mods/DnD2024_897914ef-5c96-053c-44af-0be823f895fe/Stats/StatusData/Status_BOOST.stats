@@ -2135,6 +2135,21 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fd02107-e3c8-45fe-a818-63c37178b51a" />
+        <field name="Name" type="NameTableFieldDefinition" value="TROLLBLOOD_INFUSION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce516d21g26c1g26cfg3512gdec3165acc58" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebd09d64gbff3g6d56gd342gcb0e1169f115" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_TrollbloodInfusion" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TROLLBLOOD_INFUSION" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(DeathSavingThrow);" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(5)" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8c6d7c03-9920-4c67-8fd4-0b70aa0452d9" />
         <field name="Name" type="NameTableFieldDefinition" value="BLINK_VANISH" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83b85c59gb22dg5169g66f4ge07c7b7871db" version="1" />

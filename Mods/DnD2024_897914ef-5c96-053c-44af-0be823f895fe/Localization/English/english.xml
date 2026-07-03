@@ -4883,4 +4883,8 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="h64a85505gb9ccg347eg37efg4472a54e2380" version="1">Gained 2d4+[1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
   <content contentuid="h7db1a592ge710g4c16g2014gbe064274b274" version="1">Tidal Wave</content>
   <content contentuid="ha9c3ab13g3fb0g8a2eg5ee1gfbd234126c3d" version="1">You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn’t knocked prone</content>
+  <content contentuid="hec10168bged4egc312g169dgd40b9b631b23" version="1">Trollblood Infusion</content>
+  <content contentuid="h2a98d2a4g6136gc14eg1cb9g3739feecfebf" version="1">A creature you touch is magically infused with the regenerative properties of troll blood. For the duration of the spell, the target regains 5 Hit Points at the start of each of its turns, if it has at least 1 Hit Point, and automatically succeeds on Death Saving Throws.</content>
+  <content contentuid="hce516d21g26c1g26cfg3512gdec3165acc58" version="1">Trollblood Infusion</content>
+  <content contentuid="hebd09d64gbff3g6d56gd342gcb0e1169f115" version="1">A creature you touch is magically infused with the regenerative properties of troll blood. For the duration of the spell, the target regains 5 Hit Points at the start of each of its turns, if it has at least 1 Hit Point, and automatically succeeds on Death Saving Throws.</content>
 </contentList>

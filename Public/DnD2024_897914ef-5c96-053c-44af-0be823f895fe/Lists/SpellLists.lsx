@@ -77,31 +77,31 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Bard SLevel 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="c213ca01-3767-457b-a5c8-fd4c1dd656e2"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Bard SLevel 3 List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="bc490c83-b9f4-4084-9870-4d2f3d6d7081"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="586a8796-34f4-41f5-a3ef-95738561d55d"/>
                     <attribute id="Name" type="FixedString" value="5.5 Bard SLevel 3 to 6"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="ab46c501-4caa-447f-9e12-60ef03dace9e"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3"/>
                     <attribute id="Name" type="FixedString" value="5.5 Bard SLevel 3 to 5"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="4d6a979d-dfd2-41e7-b8fa-e46b0b7a7579"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6"/>
                     <attribute id="Name" type="FixedString" value="5.5 Bard SLevel 3 to 4"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="0c09ebff-1e07-4d8b-9f6d-9b3aad925a75"/>
                 </node>
                 <node id="SpellList">
@@ -254,13 +254,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Cleric SLevel 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_AnimateDead;Zone_AstralFlood;Shout_AuraOfVitality;Shout_BeaconOfHope;Shout_BeaconOfHope;Target_BestowCurse;Target_BestowCurse;Target_Daylight_Container;Target_Daylight_Container;Target_FeignDeath;Target_FeignDeath;Target_GlyphOfWarding;Target_GlyphOfWarding;Shout_HealingWord_Mass;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_RemoveCurse;Teleportation_Revivify;Teleportation_Revivify;Target_SpeakWithDead;Target_SpeakWithDead;Shout_SpiritGuardians;Shout_SpiritGuardiansShout_AuraOfVitality"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Zone_AstralFlood;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="21be0992-499f-4c7a-a77a-4430085e947a"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Cleric SLevel 3 List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_AnimateDead;Zone_AstralFlood;Shout_AuraOfVitality;Shout_BeaconOfHope;Shout_BeaconOfHope;Target_BestowCurse;Target_BestowCurse;Target_Daylight_Container;Target_Daylight_Container;Target_FeignDeath;Target_FeignDeath;Target_GlyphOfWarding;Target_GlyphOfWarding;Shout_HealingWord_Mass;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_RemoveCurse;Teleportation_Revivify;Teleportation_Revivify;Target_SpeakWithDead;Target_SpeakWithDead;Shout_SpiritGuardians;Shout_SpiritGuardiansShout_AuraOfVitality"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Zone_AstralFlood;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="92126467-9055-4b99-b3c4-e582063284a0"/>
                 </node>
                 <node id="SpellList">
@@ -561,13 +561,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Druid SLevel 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_SummonFey;Zone_TidalWave"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_SummonFey;Zone_TidalWave;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="3156daf5-9266-41d0-b52c-5bc559a98654"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Druid SLevel 3 List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_SummonFey;Zone_TidalWave"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_SummonFey;Zone_TidalWave;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="7dc7cd4c-d5ca-4b5b-81a8-c7528f76866d"/>
                 </node>
                 <node id="SpellList">
@@ -987,25 +987,25 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Zone_AstralFlood;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="dcbaf2ae-1f45-453e-ab83-cd154f8277a4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List to 6"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Zone_AstralFlood;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="6dcebda8-8f21-4a33-b477-d1f07eecddf4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="3276fcfe-e143-4559-b6e0-7d7aa0ffcb53"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List to 5"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Zone_AstralFlood;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="beb12724-edaa-483f-bdb6-d04de55eb063"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List to 4"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Zone_AstralFlood;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AstralFlood;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="3857e7ea-5a06-4d07-8a9f-fe58e7ebdd96"/>
                 </node>
                 <node id="SpellList">
@@ -1187,7 +1187,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Frost Level 9"/>
-                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold,Target_ConjureElemental_Container"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_ConjureElemental_Container"/>
                     <attribute id="UUID" type="guid" value="a27d843d-88fd-4f23-a519-74d6207625d6"/>
                 </node>
                 <node id="SpellList">
@@ -1246,19 +1246,19 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_SummonFey;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_SummonFey;Target_TrollbloodInfusion;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="f2067e9a-2780-44d0-b696-1870cc537dd4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="648310a4-d9b7-4cf5-b6a0-51bd957a798f"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 3 to 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_SummonFey;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_SummonFey;Target_TrollbloodInfusion;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="c3ceb024-0abd-4f9e-8c69-659772b20fe8"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="94fb74d6-c832-40f1-9e08-159ce46091a1"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 3 to 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_SummonFey;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_SummonFey;Target_TrollbloodInfusion;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="488700c2-5d87-45a4-812f-9fc1dd5bfa23"/>
                 </node>
                 <node id="SpellList">
@@ -1328,7 +1328,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_BestowCurse,Zone_ConjureBarrage"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Zone_ConjureBarrage"/>
                     <attribute id="UUID" type="guid" value="58b8c82e-8ab3-4fd7-aa0a-3f2b831187f5"/>
                 </node>
                 <node id="SpellList">
