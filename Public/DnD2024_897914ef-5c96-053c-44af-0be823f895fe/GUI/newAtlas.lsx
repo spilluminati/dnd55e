@@ -1055,6 +1055,13 @@
                     <attribute id="V2" type="float" value="0.03112793"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_MurderOfCrows"/>
+                    <attribute id="U1" type="float" value="0.76574707"/>
+                    <attribute id="U2" type="float" value="0.78112793"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Necromancy_SpareTheDying"/>
                     <attribute id="U1" type="float" value="0.20324707"/>
                     <attribute id="U2" type="float" value="0.21862793"/>
@@ -1072,6 +1079,13 @@
                     <attribute id="MapKey" type="FixedString" value="Spell_TrollbloodInfusion"/>
                     <attribute id="U1" type="float" value="0.71887207"/>
                     <attribute id="U2" type="float" value="0.73425293"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_VoidStrike"/>
+                    <attribute id="U1" type="float" value="0.75012207"/>
+                    <attribute id="U2" type="float" value="0.76550293"/>
                     <attribute id="V1" type="float" value="0.03137207"/>
                     <attribute id="V2" type="float" value="0.04675293"/>
                 </node>
