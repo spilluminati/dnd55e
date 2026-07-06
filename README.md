@@ -137,7 +137,7 @@ Argument Solver, Blazer of Benevolence, Cap of Curing, Chain of Liberation, Char
 
 ### Spell Scrolls
 
-Spell scrolls of 3rd level or higher are restricted to specific classes.
+Spell scrolls are restricted to specific classes, with cantrip scrolls and Scrolls of Revivify always exempt.
 
 ## Creatures
 
