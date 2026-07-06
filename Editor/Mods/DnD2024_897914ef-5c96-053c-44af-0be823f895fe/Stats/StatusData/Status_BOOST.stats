@@ -6681,7 +6681,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e1a3cbc8-f4e9-4d79-b40c-2b522a9c72c3" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_CLERIC_CANTRIP_START" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CLERIC_CANTRIP_START" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_CLERIC_CANTRIP_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Cleric_Cantrip);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_CLERIC_CANTRIP_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Cleric_Cantrip);UnlockSpellVariant(SpellId('Shout_MagicInitiate_Cleric_Cantrip'),ModifyIconGlow());" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hee720882g4ca7g0c82g0f6dgda96a14a144e" version="2" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he64b4a45gba6eg30a6g9703gb0f13f9230e8" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
@@ -6718,7 +6718,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd21b5377g2221gaafdga39bgea72f3a697d1" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateDruid" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_DRUID_CANTRIP_START" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_DRUID_CANTRIP_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Druid_Cantrip);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_DRUID_CANTRIP_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Druid_Cantrip);UnlockSpellVariant(SpellId('Shout_MagicInitiate_Druid_Cantrip'),ModifyIconGlow());" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6744,7 +6744,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_WIZARD_CANTRIP_START" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e1a3cbc8-f4e9-4d79-b40c-2b522a9c72c3" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_WIZARD_CANTRIP_START" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_WIZARD_CANTRIP_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Wizard_Cantrip);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_WIZARD_CANTRIP_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Wizard_Cantrip);UnlockSpellVariant(SpellId('Shout_MagicInitiate_Wizard_Cantrip'),ModifyIconGlow());" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6770,7 +6770,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_CLERIC_SPELL_START" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e1a3cbc8-f4e9-4d79-b40c-2b522a9c72c3" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CLERIC_SPELL_START" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_CLERIC_SPELL_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Cleric_Spell);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_CLERIC_SPELL_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Cleric_Spell);UnlockSpellVariant(SpellId('Shout_MagicInitiate_Cleric_Spell'),ModifyIconGlow());" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6788,7 +6788,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_DRUID_SPELL_START" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c6bc20a0-b5c8-415b-891c-cbdf83dddbd8" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_DRUID_SPELL_START" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_DRUID_SPELL_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Druid_Spell);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_DRUID_SPELL_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Druid_Spell);UnlockSpellVariant(SpellId('Shout_MagicInitiate_Druid_Spell'),ModifyIconGlow());" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6806,7 +6806,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_WIZARD_SPELL_START" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c6bc20a0-b5c8-415b-891c-cbdf83dddbd8" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_WIZARD_SPELL_START" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_WIZARD_SPELL_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Wizard_Spell);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_WIZARD_SPELL_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Wizard_Spell);UnlockSpellVariant(SpellId('Shout_MagicInitiate_Wizard_Spell'),ModifyIconGlow());" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
