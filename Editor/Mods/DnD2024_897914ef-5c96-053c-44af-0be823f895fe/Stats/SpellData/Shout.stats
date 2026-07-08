@@ -4831,7 +4831,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8420244e-5360-4017-8b57-3dab91d3e07f" />
         <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_Spell" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="497ba02f-a777-4240-9fd2-9f8194a31062" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_AbsorbElements_Dummy;Target_AnimalFriendship;Target_CharmPerson;Target_CreateWater;Target_DestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Zone_Thunderwave;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_AbsorbElements_Dummy;Target_AnimalFriendship;Target_CharmPerson;Target_CreateWater;Target_DestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_ThornArmor;Zone_Thunderwave;" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc1a2947cg6d72g0cb9g22eagc5ff105e4237" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he3771dbcg23f0g570dg2d5egf79cec30d589" version="3" />
       </fields>

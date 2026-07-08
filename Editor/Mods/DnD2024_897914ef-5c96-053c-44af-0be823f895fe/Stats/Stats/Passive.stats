@@ -724,6 +724,17 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDamageTypeAcid()):ApplyStatus(ABSORB_ELEMENTS_ACID_DAMAGE_6, 100, 2);IF(IsDamageTypeCold()):ApplyStatus(ABSORB_ELEMENTS_COLD_DAMAGE_6, 100, 2);IF(IsDamageTypeFire()):ApplyStatus(ABSORB_ELEMENTS_FIRE_DAMAGE_6, 100, 2);IF(IsDamageTypeLightning()):ApplyStatus(ABSORB_ELEMENTS_LIGHTNING_DAMAGE_6, 100, 2);IF(IsDamageTypeThunder()):ApplyStatus(ABSORB_ELEMENTS_THUNDER_DAMAGE_6, 100, 2);IF(IsDamageTypeAcid() or IsDamageTypeCold() or IsDamageTypeFire() or IsDamageTypeLightning() or IsDamageTypeThunder()):RemoveStatus(ABSORB_ELEMENTS_ACTIVE_SPELL_6)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16acaa94-b97a-42a5-ac8c-1ff7ecf693fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ThornArmor_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56d01007g7639g76b3g6944ge9e37780bfa3" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,DamageDone,Piercing,Magical)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bdde706b-febe-4658-bff4-05ed2f30bf96" />

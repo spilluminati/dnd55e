@@ -4063,7 +4063,7 @@ new entry "Shout_MagicInitiate_Druid_Spell"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_MagicInitiate_Druid_Cantrip"
-data "ContainerSpells" "Shout_AbsorbElements_Dummy;Target_AnimalFriendship;Target_CharmPerson;Target_CreateWater;Target_DestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Zone_Thunderwave;"
+data "ContainerSpells" "Shout_AbsorbElements_Dummy;Target_AnimalFriendship;Target_CharmPerson;Target_CreateWater;Target_DestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_ThornArmor;Zone_Thunderwave;"
 data "DisplayName" "hc1a2947cg6d72g0cb9g22eagc5ff105e4237;1"
 data "Description" "he3771dbcg23f0g570dg2d5egf79cec30d589;3"
 

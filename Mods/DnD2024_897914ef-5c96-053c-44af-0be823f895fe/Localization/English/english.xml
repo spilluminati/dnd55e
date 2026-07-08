@@ -5412,4 +5412,11 @@ At Higher Levels: your Speed increases by an additional 5 feet, and the Fire dam
   <content contentuid="h353f6fe0g981eg9ab6gd5b9g0148d8001530" version="1">You imbue a weapon you are holding, or your Unarmed Strikes, with ravenous negative energy. For the duration, when you hit a creature with an attack using the empowered weapon or Unarmed Strike for the first time on a turn, the target takes Necrotic damage equal to your spellcasting ability modifier, and you gain a number of Temporary Hit Points equal to the Necrotic damage dealt.</content>
   <content contentuid="hb6e6fab4gd077g545dge824g9e58b1ec530c" version="1">Hungering Blade: Temporary Hit Points</content>
   <content contentuid="h0903fdd3gbfadg55a1gd56cga67f82c909ac" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h4a76861cg2a42g5900gbd08gc593fbb9811e" version="1">Thorn Armor</content>
+  <content contentuid="h5f480b91gf52bg2751g6254gdd8113ff8e2e" version="1">When you cast this spell, a flexible exoskeleton covered in thorns appears around a willing target within range. The target gains [1] Temporary Hit Points. If a creature hits the target with a melee attack roll before the spell ends, that creature takes Piercing damage equal to the number of Temporary Hit Points lost as a result of the attack. This spell ends early if the target has no remaining Temporary Hit Points granted by this spell.</content>
+  <content contentuid="he725b302g9ad6g038fg90e3g3b6453195180" version="1">The target gains an additional 2d6 Temporary Hit Points for each spell slot level above 1.</content>
+  <content contentuid="h73991020g32ffg9f15g55bcgd13afd4a160b" version="1">Thorn Armor</content>
+  <content contentuid="hf4db5d55g3f59g3137gd662g4504298dce7d" version="1">Gains [1] Temporary Hit Points. If a creature hits the target with a melee attack roll before the spell ends, that creature takes Piercing damage equal to the number of Temporary Hit Points lost as a result of the attack. This spell ends early if the target has no remaining Temporary Hit Points granted by this spell.</content>
+  <content contentuid="h56d01007g7639g76b3g6944ge9e37780bfa3" version="1">Thron Armor</content>
+  <content contentuid="h5aaf459egc2f8g443cgbd6cgea65032712ea" version="1">Magic Initiate: Thorn Armor</content>
 </contentList>

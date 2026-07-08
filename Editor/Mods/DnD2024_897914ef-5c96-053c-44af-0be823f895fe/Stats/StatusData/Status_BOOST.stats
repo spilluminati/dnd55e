@@ -990,6 +990,73 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22e06ddb-eef6-47a3-984f-8863a71f731c" />
+        <field name="Name" type="NameTableFieldDefinition" value="THORN_ARMOR_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73991020g32ffg9f15g55bcgd13afd4a160b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4db5d55g3f59g3137gd662g4504298dce7d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ThornArmor" />
+        <field name="StackId" type="StringTableFieldDefinition" value="THORN_ARMOR" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(3d6);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ce1c75fc-e400-4b27-a21d-4df66f812efc" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ThornArmor_Passive;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82ff383f-7616-4fde-9e64-55f7df90af7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="THORN_ARMOR_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22e06ddb-eef6-47a3-984f-8863a71f731c" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="5d6" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(5d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="18c343c4-7dff-4b26-9879-fd09bcb840c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="THORN_ARMOR_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22e06ddb-eef6-47a3-984f-8863a71f731c" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="7d6" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(7d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="444cd07a-9ea0-466e-a29e-b648ec97d402" />
+        <field name="Name" type="NameTableFieldDefinition" value="THORN_ARMOR_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22e06ddb-eef6-47a3-984f-8863a71f731c" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="9d6" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(9d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab5a3c7d-e88a-4243-bc8a-bc4c28e10b7f" />
+        <field name="Name" type="NameTableFieldDefinition" value="THORN_ARMOR_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22e06ddb-eef6-47a3-984f-8863a71f731c" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="11d6" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(11d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c03544f-0e21-4780-8b34-78cab5202b47" />
+        <field name="Name" type="NameTableFieldDefinition" value="THORN_ARMOR_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22e06ddb-eef6-47a3-984f-8863a71f731c" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="13d6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(13d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="41044994-9f28-45b6-b90f-2d9ba7a163b6" />
         <field name="Name" type="NameTableFieldDefinition" value="WARDING_BOND" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="546fe62a-78bd-4794-b816-a45a011eb4a2" />
@@ -2508,13 +2575,6 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="79b04e46-1656-4c1b-86d0-a628bccf37d6" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="edef3318-0d00-453e-97d7-ee2b96c8ce59" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7430,6 +7490,16 @@
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CATAPULT" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Catapult,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h531eb181g2185g4a8eg9a93g7866406491b2" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aaf4ffdd-6a7b-4814-a0fb-437b16282697" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_THORNARMOR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_THORNARMOR" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ThornArmor,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5aaf459egc2f8g443cgbd6cgea65032712ea" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

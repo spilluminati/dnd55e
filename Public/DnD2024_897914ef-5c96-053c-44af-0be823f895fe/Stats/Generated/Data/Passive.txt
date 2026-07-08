@@ -514,6 +514,14 @@ type "PassiveData"
 using "Absorb_Elements_Spell_Technical_Passive_2"
 data "StatsFunctors" "IF(IsDamageTypeAcid()):ApplyStatus(ABSORB_ELEMENTS_ACID_DAMAGE_6, 100, 2);IF(IsDamageTypeCold()):ApplyStatus(ABSORB_ELEMENTS_COLD_DAMAGE_6, 100, 2);IF(IsDamageTypeFire()):ApplyStatus(ABSORB_ELEMENTS_FIRE_DAMAGE_6, 100, 2);IF(IsDamageTypeLightning()):ApplyStatus(ABSORB_ELEMENTS_LIGHTNING_DAMAGE_6, 100, 2);IF(IsDamageTypeThunder()):ApplyStatus(ABSORB_ELEMENTS_THUNDER_DAMAGE_6, 100, 2);IF(IsDamageTypeAcid() or IsDamageTypeCold() or IsDamageTypeFire() or IsDamageTypeLightning() or IsDamageTypeThunder()):RemoveStatus(ABSORB_ELEMENTS_ACTIVE_SPELL_6)"
 
+new entry "ThornArmor_Passive"
+type "PassiveData"
+data "DisplayName" "h56d01007g7639g76b3g6944ge9e37780bfa3;1"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)"
+data "StatsFunctors" "DealDamage(SWAP,DamageDone,Piercing,Magical)"
+
 new entry "__CONJURATION__"
 type "PassiveData"
 

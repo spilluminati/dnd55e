@@ -19,6 +19,11 @@
                     <attribute id="Text" type="TranslatedString" handle="h2826d606g7d49g321cg9686gfc615a4ba31d" version="1"/>
                     <attribute id="UUID" type="guid" value="e28b5cd2-6a2b-4e46-8ccd-cba00ace9474"/>
                 </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Thorn Armor"/>
+                    <attribute id="Text" type="TranslatedString" handle="he725b302g9ad6g038fg90e3g3b6453195180" version="1"/>
+                    <attribute id="UUID" type="guid" value="26b974eb-a02f-4c3e-ba37-a33962c7b8a1"/>
+                </node>
             </children>
         </node>
     </region>
