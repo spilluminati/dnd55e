@@ -4036,7 +4036,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96955479gc03cg5656g398ega8e7e632c8a3" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
         <field name="StackId" type="StringTableFieldDefinition" value="PATIENT_DEFENSE_TEMPHP" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(LevelMapValue(MartialArts)+LevelMapValue(MartialArts));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(foreach(2,LevelMapValue(MartialArts)));" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
