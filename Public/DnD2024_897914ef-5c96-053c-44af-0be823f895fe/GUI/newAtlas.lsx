@@ -1069,6 +1069,13 @@
                     <attribute id="V2" type="float" value="0.06237793"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_BodyWarpingOfGorgoroth"/>
+                    <attribute id="U1" type="float" value="0.46887207"/>
+                    <attribute id="U2" type="float" value="0.48425293"/>
+                    <attribute id="V1" type="float" value="0.04699707"/>
+                    <attribute id="V2" type="float" value="0.06237793"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_CacophonicShield"/>
                     <attribute id="U1" type="float" value="0.43762207"/>
                     <attribute id="U2" type="float" value="0.45300293"/>

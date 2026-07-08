@@ -5399,4 +5399,8 @@ At Higher Levels: your Speed increases by an additional 5 feet, and the Fire dam
   <content contentuid="h61c3e42cg02b0g7f38gda65gdc3642939a49" version="1">Arcane Vigor: D10</content>
   <content contentuid="h2c125804g85eegc3ecgdd44g25edc8c0bb5c" version="1">Arcane Vigor: D12</content>
   <content contentuid="h2826d606g7d49g321cg9686gfc615a4ba31d" version="1">The number of unexpended Hit Dice you can roll increases by one for each spell slot level above 2.</content>
+  <content contentuid="h68cc0961gb6ceg3e67g1ae5g31162e46016b" version="1">Body Warping of Gorgoroth</content>
+  <content contentuid="h2ee464d4g6606g2b85g7008gfc6f4aaa15b0" version="1">Choose a Humanoid of your size that you can see in range. You physically transform to become an exact duplicate of that creature for the duration. Even a thorough physical examination fails to find any differences between you and the target.</content>
+  <content contentuid="h35b9b915g3bf7g0d1dg728fg2be8d9ced715" version="1">Body Warping of Gorgoroth</content>
+  <content contentuid="hfb5ff22bgbb91g4598ga3acg629a9bc0bbf5" version="1">Magic Initiate: Body Warping of Gorgoroth</content>
 </contentList>

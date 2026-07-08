@@ -5580,6 +5580,74 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1910fe38-02b4-49e7-b72a-904493bcc3ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="BodyWarpingOfGorgoroth" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BODY_WARPING_OF_GORGOROTH_TARGET,100,-1);ApplyStatus(SELF,BODY_WARPING_OF_GORGOROTH,100,-1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Tagged('HUMANOID');" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BodyWarpingOfGorgoroth" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68cc0961gb6ceg3e67g1ae5g31162e46016b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ee464d4g6606g2b85g7008gfc6f4aaa15b0" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BODY_WARPING_OF_GORGOROTH_TARGET,100,-1);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_InvokeDuplicity_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_InvokeDuplicity_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;4acb9350-ba51-40c0-8b72-32dc3d50d4a2,,;58711808-db75-47e7-ba95-31e73dcdf9cd,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,," />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsConcentration;HasSomaticComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d71f28ac-e1b7-4169-9670-a3cc1e338dc3" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5215e8c4-dab6-49c5-8d5f-c1bd806c1938" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Tagged('HUMANOID');" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="950f256c-8860-41d7-9d97-f170ef0e5b2b" />
+        <field name="Name" type="NameTableFieldDefinition" value="BodyWarpingOfGorgoroth_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1910fe38-02b4-49e7-b72a-904493bcc3ac" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_BodyWarpingOfGorgoroth" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19ec55de-d7a4-4da4-b2b6-d00377ceb704" />
+        <field name="Name" type="NameTableFieldDefinition" value="BodyWarpingOfGorgoroth_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="950f256c-8860-41d7-9d97-f170ef0e5b2b" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4283a70d-76f0-4c1b-b5bc-a9455e54470b" />
+        <field name="Name" type="NameTableFieldDefinition" value="BodyWarpingOfGorgoroth_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="950f256c-8860-41d7-9d97-f170ef0e5b2b" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe961a8f-3fc8-435c-8aa4-34f0f828c220" />
+        <field name="Name" type="NameTableFieldDefinition" value="BodyWarpingOfGorgoroth_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="950f256c-8860-41d7-9d97-f170ef0e5b2b" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bf9b2ecc-15e7-4093-a714-aa386c28580d" />
+        <field name="Name" type="NameTableFieldDefinition" value="BodyWarpingOfGorgoroth_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="950f256c-8860-41d7-9d97-f170ef0e5b2b" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8a9f43f8-85cc-4ffc-836e-750508a925ab" />
         <field name="Name" type="NameTableFieldDefinition" value="Jump" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="99170283-5c5f-4544-8994-ab4563d865e6" />
