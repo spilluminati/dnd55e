@@ -37,19 +37,19 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Bard SLevel 5 List"/>
-                    <attribute id="Spells" type="LSString" value="Target_CureWounds_Mass;Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic"/>
+                    <attribute id="Spells" type="LSString" value="Target_CureWounds_Mass;Target_DominatePerson;Target_Dream;Target_GreaterRestoration;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic"/>
                     <attribute id="UUID" type="guid" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Bard SLevel 5 to to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_CureWounds_Mass;Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic"/>
+                    <attribute id="Spells" type="LSString" value="Target_CureWounds_Mass;Target_DominatePerson;Target_Dream;Target_GreaterRestoration;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic"/>
                     <attribute id="UUID" type="guid" value="a99299ec-4db1-4f17-b78b-20bb4e468e16"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="586a8796-34f4-41f5-a3ef-95738561d55d"/>
                     <attribute id="Name" type="FixedString" value="5.5 Bard SLevel 5 to 6"/>
-                    <attribute id="Spells" type="LSString" value="Target_CureWounds_Mass;Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic"/>
+                    <attribute id="Spells" type="LSString" value="Target_CureWounds_Mass;Target_DominatePerson;Target_Dream;Target_GreaterRestoration;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SynapticStatic"/>
                     <attribute id="UUID" type="guid" value="d9cafe75-11c8-45c9-8b02-8581ef370c63"/>
                 </node>
                 <node id="SpellList">
@@ -1259,7 +1259,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_DanseMacabre;Target_HoldMonster;Target_PlanarBinding;Target_SynapticStatic"/>
+                    <attribute id="Spells" type="LSString" value="Target_DanseMacabre;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_SynapticStatic"/>
                     <attribute id="UUID" type="guid" value="648310a4-d9b7-4cf5-b6a0-51bd957a798f"/>
                 </node>
                 <node id="SpellList">
@@ -1503,19 +1503,19 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
                     <attribute id="UUID" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 5 to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
                     <attribute id="UUID" type="guid" value="45afb374-c3e4-4d85-97a1-4dd6be40496e"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 5 to 6"/>
-                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
                     <attribute id="UUID" type="guid" value="dfd47382-14d1-40d6-b933-09aec5b100e1"/>
                 </node>
                 <node id="SpellList">

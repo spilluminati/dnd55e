@@ -5472,4 +5472,8 @@ Each creature within a 30-foot Cone of destructive elemental energy must make a 
   <content contentuid="haebb0bd5g858bg5610gf623g1dcd18a2a0dd" version="1">Water. The damage type is Acid. Each creature that fails the saving throw has the Prone condition.
 
 Each creature within a 30-foot Cone of destructive elemental energy must make a Dexterity saving throw. On a failed save, a target takes damage of the chosen type. On a successful save, the target takes half as much damage only.</content>
+  <content contentuid="h3c1b94c0g3b79g0911g3aa7ge6561bd5cb56" version="1">Dream</content>
+  <content contentuid="h73861110g988dg24c3g72e2gfe79f0ecaf49" version="1">On a failed Wisdom saving throw, the target is trapped in a dream, gaining no benefit from its rest. When the target wakes up, it takes 3d6 Psychic damage.</content>
+  <content contentuid="hb0fea27dgc56fg62a0ge057g7c9ddc6f463e" version="1">The target is trapped in a dream, gaining no benefit from rest. When the target wakes up, it takes 3d6 Psychic damage.</content>
+  <content contentuid="hb36377c1g08c0g556fge8fbg80cbd9b569ef" version="1">Dreaming</content>
 </contentList>

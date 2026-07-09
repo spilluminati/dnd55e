@@ -1174,6 +1174,13 @@
                     <attribute id="V2" type="float" value="0.01550293"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Dream"/>
+                    <attribute id="U1" type="float" value="0.57824707"/>
+                    <attribute id="U2" type="float" value="0.59362793"/>
+                    <attribute id="V1" type="float" value="0.04699707"/>
+                    <attribute id="V2" type="float" value="0.06237793"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_ElementalExhalation"/>
                     <attribute id="U1" type="float" value="0.56262207"/>
                     <attribute id="U2" type="float" value="0.57800293"/>
